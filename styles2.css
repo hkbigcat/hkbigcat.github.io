@@ -22,7 +22,7 @@ body {
     #stockphoto1 {top:0;z-index: 3;}
     #stockphoto2{top:355px}
     #stockphoto4{top:814px; bottom:0; left:0; background-color:#fff;width:100%;}
-    .content {top:350px;left:720px;padding:10px;margin-bottom: 30px;;border-radius: 20px;
+    .content {top:350px;left:720px;padding:10px;margin-bottom: 30px;;border-radius: 20px;height: 162vh;
     }
   }
 
@@ -31,7 +31,7 @@ body {
     #stockphoto1 {top:0;z-index: 3;}
     #stockphoto2{top:399px}
     #stockphoto4{top:849px; bottom:0; left:0; background-color:#fff;width:100%;}
-    .content {   top:365px;left:860px; padding:10px;margin-bottom: 30px;;border-radius: 20px;
+    .content {   top:365px;left:860px; padding:10px;margin-bottom: 30px;;border-radius: 20px;height: 158vh;
     }
   }
 

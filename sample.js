@@ -2,7 +2,7 @@ sample= () => {
     document.getElementById("sampleclose").style.display="block";
     document.getElementById("sample").style.display="block";
     document.getElementById("sample").style.opacity=1;
-    document.getElementById("sample").style.zIndex=3;
+    document.getElementById("sample").style.zIndex=4;
     
 }
 sampleclose= () => {

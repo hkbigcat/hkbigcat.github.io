@@ -5,7 +5,7 @@ p a {color:white}
     #stockphoto2{top:354px}
     #stockphoto3{top:779px;z-index: 3; }
     #stockphoto4{top:784px; bottom:0; left:0; background-color:black;width:100%;}
-    .content {   top:383px;left:745px;background-color: rgba(0, 0, 0, .20); padding:10px;;border-radius: 20px;height: 216vh;
+    .content {   top:323px;left:750px;background-color: rgba(0, 0, 0, .20); padding:10px;;border-radius: 20px;height: 152vh;
     }
 
 }
@@ -14,7 +14,7 @@ p a {color:white}
     #stockphoto2{top:399px; z-index: 1;}
     #stockphoto3{top:878px;z-index: 3; bottom: 0;}
     #stockphoto4{top:883px; bottom:0; left:0; background-color:black;width:100%;z-index: 5;}
-    .content {top:383px;left:828px;background-color: rgba(20, 20, 20, .30); padding:20px 20px 50px 20px; border-radius: 20px; position:relative;z-index: 2;text-decoration: none; line-height:1.5rem;color: white; height: 210vh;
+    .content {top:390px;left:846px;background-color: rgba(20, 20, 20, .30); padding:20px 20px 50px 20px; border-radius: 20px; position:relative;z-index: 2;text-decoration: none; line-height:1.5rem;color: white; height: 136vh;
     }
     .h2a {margin-top: 25px;}
 } 
