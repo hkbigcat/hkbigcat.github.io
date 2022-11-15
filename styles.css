@@ -11,9 +11,9 @@ nav {background-color: rgba(202, 202, 202, 0.96);
   position: fixed;
   left:0;
   top:0;
-  z-index: 0;
+  z-index: 4;
   overflow: hidden;
-  transition: 0.3s ease-in-out;
+  transition: width 500ms ease-in-out, opacity 100ms ease-in-out, display 100ms ease-in-out;
   padding-top: 20px;
   padding-right: 30px;
   opacity: 0;
@@ -109,7 +109,7 @@ nav a:hover, .nav2 a:hover {
   left:350px;
   margin:0;
   padding: 10px 20px;
-  transition: 0.3s;
+  transition: 0.3 ease-in-out;
 }
 
 .nav2 ul {margin:0;}
@@ -148,13 +148,12 @@ p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', cursive; font-weigh
   .nav2 a {color: #666666;}
   .nav2 {
     position: relative;
-    width: 100%;
     left:0;
+    top:27px;
     margin:0;
     padding:0;
     background-color: #fff;
     opacity: 1;
-    
     }
 
     nav li {border-bottom: 1px solid #aaa; margin:12px 10px 12px 0; width:75%;}
