@@ -11,7 +11,7 @@ nav {background-color: rgba(202, 202, 202, 0.96);
   position: fixed;
   left:0;
   top:0;
-  z-index: 5;
+  z-index: 0;
   overflow: hidden;
   transition: 0.3s ease-in-out;
   padding-top: 20px;
@@ -91,11 +91,12 @@ nav a:hover, .nav2 a:hover {
   position: fixed;
   opacity: 0;
   height: auto;
-  left:350px;
+  left:320px;
   z-index: 2;
   margin:0;
-  padding: 0 20px;
-  transition: 0.3s;
+  padding: 5px 55px;
+  transition: width 0.5s;
+  transform: translateY(-20px);
 }
 
 .nav3 {
@@ -206,18 +207,7 @@ p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', cursive; font-weigh
 
 
 @media only screen and (min-width: 1440px) {
-  .flip-box, #hamburger{position:fixed;z-index: 4}
-  .nav2link:hover > .nav2 {opacity: 1;}
-  .nav2link:hover ~ .nav3 {width:200px;opacity: 1;display: block;}
   main {  width:1440px;height:900px;}
   .photo {width:1440px}
-  .content {
-    position: relative;
-    top:360px;
-    left:846px;
-    width:485px;
-    padding-bottom: 10px;
-    
-    }
 }
 

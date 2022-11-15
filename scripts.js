@@ -9,6 +9,7 @@ document.addEventListener("click" , e=> {
     if (isHamburger) {
         if (w>1279) {
         document.getElementById("mySidenav").style.width = "320px";
+        document.getElementById("mySidenav").style.zIndex = 5;
         } else {
         document.getElementById("mySidenav").style.width = "100%";
         document.getElementById("mySidenav").style.display = "block";
@@ -18,6 +19,7 @@ document.addEventListener("click" , e=> {
     } else {
         if (w>1279) {
             document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("mySidenav").style.zIndex = 0;
         }
         document.getElementById("mySidenav").style.opacity = 0;
         document.getElementById("hamburger").style.opacity = "1";
