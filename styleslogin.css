@@ -13,7 +13,7 @@
 }
 @media only screen and (min-width: 1280px) {
     main {background: #000 url("images/login.png") no-repeat left top; background-size: cover;}
-    .content {position:absolute; top:10rem; left:5rem;width:40rem}
+    .content {position:absolute; top:10rem; left:5rem;width:40rem;z-index: 1;}
     h1 {position:absolute; top:10rem; left:37rem;text-align: right;}
     form {
         position: relative; margin-top:400px;
