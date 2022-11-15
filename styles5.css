@@ -1,0 +1,21 @@
+body {
+  margin:0;background-color: #fff;     
+  color: #000;
+}
+main {
+  background: #fff;
+} 
+#hamburger {color:#000;}
+@media only screen and (max-width: 1399px) {
+    .content {
+      padding:20px;
+      background-color: rgba(200,200,200,0.1);
+    }
+}
+@media only screen and (min-width: 1280px) {
+  .content {top:240px;left:582px;}
+  }
+@media only screen and (min-width: 1440px) {
+  .content {top:329px;left:670px;}
+  }
+    

@@ -1,0 +1,79 @@
+p a {color:white}
+input[type=submit], input[type=reset] {border-radius: 10px; padding: 2px 16px; background-color: #8b8d8f;color:#000; margin:0 1rem;}    
+.last {width:20rem; margin: 2rem auto}
+@media only screen and (max-width: 1279px) {
+    h1 {position: absolute;top:10rem; width:15rem; left:0; right:0; margin: 0 auto;}
+    .row {margin: 0.8rem 0;}
+    .content {margin-top: 2rem;}
+    textarea {width:90%};
+    .col2 {width:60vw;}
+    label,input[type=submit], input[type=reset] {font-size: 1rem;}
+    label.container {display: block;}
+    input[type=text] {width:80%;}
+    textarea {width:80%;}
+    input.smallinput {font-size: 0.9rem; background-color: white;border-radius: 0;width:3rem}
+ 
+}
+@media only screen and (min-width: 1280px) {
+    main {background: #000 url("images/login.png") no-repeat left top; background-size: cover;}
+    h2 {font-size: 1.3rem; }
+    h3{font-size: 1.2rem; }
+    form {
+        position: relative;
+        left: 5rem;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;}
+    .content {position:absolute;top:36rem;left:5rem;width:100%; z-index: 4;}
+    h1 {position:absolute; top:19rem; left:41rem;text-align: right;}
+    label{margin-top: 4px;}
+    .col1 {float: left;width: 25%;}
+    .col2 {float: left;width: 75%;}
+    .row {margin: 0}
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .flip-box {position: absolute;}
+
+    label, input[type=text], select {
+        font-family: 'Anybody', cursive;
+        font-weight: 400;
+        padding: 3px 5px;
+    }
+    select {width:300px}
+    label,input[type=submit], input[type=reset] {font-size: 1.1rem;}
+    input[type=submit]:hover, input[type=reset]:hover {background-color: #fff;}
+    input[type=text], input[type=radio] {font-size: 0.9rem;}
+    textarea {width:70%;}
+    label.container {
+        display: block;
+        margin-bottom: 0;
+        font-size: 0.9rem;
+        padding:0;
+    }
+    .container input {
+        accent-color:#8b8d8f;
+    }
+    .container input {
+        margin-right: 13px;
+    }
+    input[type=text] {
+        border:none;
+        width:70%;
+        color: black;
+        background-color: #aaaaaa;
+        font-size: 1rem;
+        border-radius: 22px;
+        padding: 4px 30px;
+        margin-bottom: 25px;
+    }
+    input.smallinput {font-size: 0.9rem; background-color: white;border-radius: 0;width:3rem}
+    p, h2 {margin-left: 0;}
+      
+}
+@media only screen and (min-width: 1440px) {
+    h1 {position:absolute; top:22rem; left:47rem}
+}

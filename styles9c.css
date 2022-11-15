@@ -1,0 +1,10 @@
+p a {color:white}
+@media only screen and (min-width: 1440px) {
+    #stockphoto1 {top:0;z-index: 4; bottom: 0; z-index: 3; height: fit-content;}
+    #stockphoto2{top:399px; z-index: 1;}
+    #stockphoto3{top:878px;z-index: 3; bottom: 0;}
+    #stockphoto4{top:883px; bottom:0; left:0; background-color:black;width:100%;z-index: 5;}
+    .content {top:392px;left:828px;background-color: rgba(20, 20, 20, .30); padding:20px 20px 50px 20px; border-radius: 20px; position:relative;z-index: 2;text-decoration: none; line-height:1.5rem;color: white;
+    }
+    .h2a {margin-top: 25px;}
+} 

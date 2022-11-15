@@ -1,0 +1,23 @@
+body {color:black;}
+@media only screen and (max-width: 1279px) {
+  .content {padding:0 15px;border-radius: 8px;background-color: rgba(255,255,255,0.7);}
+}
+
+@media only screen and (min-width: 1280px) {
+  .stockphoto{position: fixed;}
+  #stockphoto1 {top:0;z-index: 3;}
+  #stockphoto2{top:301px}
+  #stockphoto3{top:781px;z-index: 3; }
+  #stockphoto4{top:790px; bottom:0; left:0; background-color:black;width:100%;}
+  .content {   top:306px;left:545px;background-color: rgba(255, 255, 255, .40); padding:20px;;border-radius: 20px;
+  }
+
+}
+@media only screen and (min-width: 1440px) {
+  #stockphoto1 {top:0;z-index: 3; bottom: 0;}
+  #stockphoto2{top:338px}
+  #stockphoto3{top:877px;z-index: 3; bottom: 0;}
+  #stockphoto4{top:883px; bottom:0; left:0; background-color:black;width:100%;}
+  .content {top:315px;left:600px;background-color: rgba(255, 255, 255, .40); padding:20px;border-radius: 20px;width:570px;
+  }
+}

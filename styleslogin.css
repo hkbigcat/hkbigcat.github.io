@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1279px) {
+    h1 {position:relative; top:0; text-align: right; left:-100px} 
+    label, input[type=text], input[type=password] {
+        font-family: 'Anybody', cursive;
+        font-weight: 400;
+        font-size: 1rem;
+        padding: 3px 5px;
+        margin-bottom: 10px;
+    }
+    .content {top:11rem}
+    input[type=submit] {border-radius: 15px; padding: 2px 16px; background-color: #aaaaaa;font-size: 1rem;}  
+    input[type=text], input[type=password] {width:90%}
+}
+@media only screen and (min-width: 1280px) {
+    main {background: #000 url("images/login.png") no-repeat left top; background-size: cover;}
+    .content {position:absolute; top:10rem; left:5rem;width:40rem}
+    h1 {position:absolute; top:10rem; left:37rem;text-align: right;}
+    form {
+        position: relative; margin-top:400px;
+    }
+    label{margin-top: 4px;}
+    .col1 {float: left;width: 25%;}
+    .col2 {float: left;width: 75%;}
+    .row {margin-bottom: 0.5rem;}
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    label, input[type=text], input[type=password] {
+        font-family: 'Anybody', cursive;
+        font-weight: 400;
+        padding: 3px 5px;
+    }
+    label,input[type=submit] {font-size: 1.2rem;}
+    input[type=submit] {border-radius: 15px; padding: 2px 16px; background-color: #8b8d8f;}
+    input[type=submit]:hover {background-color: #fff;}
+    input[type=text], input[type=password] {font-size: 1rem;}
+    label.container {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+    .container input {
+        accent-color:#8b8d8f;
+    }
+    .container input {
+        margin-right: 13px;
+    }
+    input[type=text], input[type=password] {
+        border:none;
+        color: black;
+        background-color: #aaaaaa;
+        font-size: 1rem;
+        border-radius: 22px;
+        padding: 4px 30px;
+        margin-bottom: 25px;
+    }
+    
+}
+
+@media only screen and (min-width: 1440px) {
+    h1 {top:13rem; left:43rem} 
+    .content {bottom:10rem; left:5rem;}
+    form {
+        position: relative; margin-top:400px;
+    }
+}
+

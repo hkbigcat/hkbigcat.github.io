@@ -1,0 +1,21 @@
+@media only screen and (min-width: 1280px) {
+    .stockphoto{position: fixed;}
+    #stockphoto1 {top:0;z-index: 3;}
+    #stockphoto2{top:355px}
+    #stockphoto3{top:782px;z-index: 3; }
+    #stockphoto4{top:800px; bottom:0; left:0; background-color:black;width:100%;}
+    .content {   top:370px;left:716px;background-color: rgba(0, 0, 0, .20); padding:10px;;border-radius: 20px;
+    }
+
+}
+@media only screen and (min-width: 1440px) {
+    #stockphoto1 {top:0;z-index: 3; bottom: 0;}
+    #stockphoto2{top:399px}
+    #stockphoto3{top:879px;z-index: 3; bottom: 0;}
+    #stockphoto4{top:883px; bottom:0; left:0; background-color:black;width:100%;}
+    .content {top:370px;left:872px;background-color: rgba(0, 0, 0, .20); padding:20px;;border-radius: 20px;
+    }
+
+}
+
+

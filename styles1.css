@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1280px) {
+    .stockphoto{position: fixed;}
+    #stockphoto1 {top:0;z-index: 3;}
+    #stockphoto2{top:355px}
+    #stockphoto4{top:814px; bottom:0; left:0; background-color:black;width:100%;}
+    .content {   top:370px;left:716px;background-color: rgba(0, 0, 0, .20); padding:10px;;border-radius: 20px;
+    }
+
+}
+@media only screen and (min-width: 1440px) {
+    #mySidenav {z-index: 4;}
+    .flip-box{position:fixed;z-index: 4}
+    .stockphoto{position: fixed;}
+    #stockphoto2{top:400px}
+    #stockphoto4{top:900px; bottom:0; left:0; background-color:black;width:100%;}
+    .content {   top:395px;left:828px; padding:10px;;border-radius: 20px;
+    }
+
+}

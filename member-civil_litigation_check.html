@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesmem.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Daily Credit Management Ltd - Online Services - Civil Litigation Check</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100;300;500&family=Noto+Sans+TC&family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <span id="hamburger">&#9776; </span>
+        <nav id="mySidenav" data-nav>
+        <div id="mobilebar">
+          <img src="images/logo-mobilemenu.webp" alt="Logo for mobile" class="logomobile">
+        </div>     
+        <span class="closebtn">&times;</span>
+        <ul>    
+            <li><a href="home.html" title="Home">Home</a></li>
+            <li><a href="group_mission.html" title="DCM Group and Our Missions">DCM Group and Our Missions</a></li>
+            <li><a href="strength.html" title="Our Strengths">Our Strengths</a></li>
+            <li><a href="management.html" title="Our Management">Our Management</a></li>
+            <li><a href="our_clients.html" title="Our clientele">Our clientele</a></li>
+            <li><a href="why_credit_risk_management.html" title="Why credit & risk management">Why credit & risk management</a></li>
+            <li><a href="china_services.html" title="China services - Special Investigation">China services - Special Investigation </a></li>
+            <li><a href="credit_information.html" title="Credit Information- Personal & Corporate Reports">Credit Information- Personal & Corporate Reports</a></li>
+            <li class="nav2link"><a href="international_services.html" title="International services">International services</a><ul class="nav2">
+                <li><a href="online_services.html" title="Online Services" data-nav2>Online Services</a></li>
+                <li><a href="news_events.html" title="News and Events" data-nav2>News and Events</a></li>
+                <li><a href="dcm_capital.html" title="DCM Capital" data-nav2>DCM Capital</a></li>
+                <li><a href="dcm_business_consulting.html" title="DCM Business Consulting" data-nav2>DCM Business Consulting</a></li>
+                <li><a href="dcm_advertising_media.html" title="DCM Advertising & Media" data-nav2>DCM Advertising & Media</a></li>
+            </ul></li>
+            <li><a href="inquiries.html" title="Inquiries">Inquiries</a></li>
+			<li><a href="login.html" title="Member Login">Member Login</a></li>
+			<div class="nav3"></div>
+        </ul>   
+        </nav>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <a href="home.html"><img src="images/logo1.webp" alt="logo frontend"></a>
+                </div>
+                <div class="flip-box-back">
+                    <a href="home.html"><img src="images/logo2.webp" alt="logo backend"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="symbol"><img src="images/member-symbol.png"></div>
+        <div class="stockphoto2"><img class="photo2" src="images/logina.png"></div>
+        
+        <div class="content">   
+            <h1><span class="h1a">Online</span> <span class="h2a">Services</span></h1>
+            <ul class="submenu">
+                <li><a href="member-civil_litigation_check.html">Civil Litigation Check</a></li>
+                <li><a href="member-auto_credit_monitoring_defendant.html">Auto Credit Monitoring (Defendant)</a></li>
+                <li><a href="member-auto_credit_monitoring_plaintiff.html">Auto Credit Monitoring (Plaintiff)</a></li>
+            </ul>
+            <form id="submenu2">
+                <select name="mobilesubmenu" onchange="document.location.href = this.value">
+                    <option  selected value="member-civil_litigation_check.html">Civil Litigation Check</option>
+                    <option value="member-auto_credit_monitoring_defendant.html">Auto Credit Monitoring (Defendant)</option>
+                    <option value="member-auto_credit_monitoring_plaintiff.html">Auto Credit Monitoring (Plaintiff)</option>
+                </select>
+            </form>
+            <h3>Civil Litigation Check</h2>
+            <form action="#" method="post">
+                <div class="row">
+                    <div class="col1">
+                        <label for="Subject">Subject:</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="subject" name="search_text" size="40" placeholder="Type Subject here...">
+                    </div>
+                </div>            
+                <div class="row">
+                    <div class="col1">
+                        <p></p>
+                    </div>
+                    <div class="col2">
+                    <label class="container"><input type="radio" name="search_phase" value="1">The Left Partial Phrase Search</label>
+                    <label class="container"><input type="radio" name="search_phase" value="2">Exact Phrase Search</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1">
+                        <label for="Subject">Search Option:</label>
+                    </div>
+                    <div class="col2">
+                        <label class="container"><input type="radio" name="search_option" value="1">Defendant / Respondent / Claimant / Judgment Debtor</label>
+                        <label class="container"><input type="radio" name="search_option" value="2">Plaintiff / Applicant / Petitioner / Judgment Creditor</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col1">
+                        <p></p>
+                    </div>
+                    <div class="col2">
+                        <input name="Submit" type="submit" value="Submit">
+                    </div>
+                </div>
+            </form> 
+            <h2>Last 10 Searches</h2>
+            <div class="result">
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Search type</th>
+                        <th>Subject Name</th>
+                    </tr>
+                    <tr>
+                        <td>15-04-2020</td>
+                        <td>Defendant</td>
+                        <td>TOY BARK WEN</td>
+                    </tr>
+                    <tr>
+                        <td>15-04-2020</td>
+                        <td>Defendant</td>
+                        <td>GALAXY ADVANCE LTD</td>
+                    </tr>
+                </table>           
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>

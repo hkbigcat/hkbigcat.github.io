@@ -1,0 +1,117 @@
+@media only screen and (max-width: 1279px) {
+  .symbol {display: none;}
+  .submenu {display: none;}
+  h1 {position: relative;
+    top:0;
+    left:2rem;
+    font-size: 1rem;
+    z-index: 4;
+    margin:0;
+  }
+  form#submenu2 {margin-top: 20px;}
+  h3 {font-size: 2rem;}
+  .content {position:absolute; top: 10rem; width: 80vw; padding: 0 1.3rem 2rem 1.3rem ; margin-bottom: 1.2rem; }
+  .container {display: block; margin-bottom: 0.5rem;}
+  .row {margin: 10px; }
+  
+  input[type=submit]  {border-radius: 12px; padding: 2px 8px; background-color: #8b8d8f; color:white; margin: 0 auto; font-size: 1rem;} 
+  input, label, select {font-size: 1rem;}
+  select {width:90%; }
+  input[type=text] {width:90%}
+  .result{overflow-x: scroll;}
+  table{width:30rem;}
+  th, td {text-align: left; font-size: 1.1rem;}
+  }
+@media only screen and (min-width: 1280px) {
+    #submenu2 {display: none;}  
+    .submenu {
+        left:18px;
+        list-style-type: none;
+        display: inline-flex;
+    }
+    .submenu li  {
+        background-color: #333;    
+        margin:0 10px;
+        height: 60px;
+        text-align: center;
+        border-radius: 10px;
+    }
+  .submenu li a {
+    display: block;
+    padding: 8px 3px;
+    width: 155px;
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }  
+  .submenu li:hover {
+    background-color: #aaaaaa;
+  }
+  .submenu li a:hover {
+    
+    color:black;
+  }
+
+    .h1a {font-size: 4rem}
+    h3 {font-size: 2.2rem; margin-top:90px;}
+  .content {top:10rem;left:12rem;width:55rem;}
+  h1 {position:relative; top:0; right:-18px;text-align: right;}
+  .symbol {position: absolute;top:130px;right:65px; width:189px; height: auto;}
+  .formarea {position: absolute;top:400px;left:100px;}
+  label, input[type=text] {
+      font-family: 'Anybody', cursive;
+      font-weight: 400;
+  }
+  label,input[type=submit] {font-size: 1.2rem;}
+  
+  input[type=submit]  {border-radius: 15px; padding: 2px 16px; color:white; background-color: #8b8d8f;}
+  
+  input[type=submit]:hover {background-color: #fff; color:black}
+  input[type=text] {font-size: 1rem;}
+  label.container {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 1rem;
+  }
+  .container input {
+      accent-color:#8b8d8f;
+  }
+  .container input {
+      margin-right: 13px;
+  }
+  input[type=text] {
+      border:none;
+      color: black;
+      background-color: #aaaaaa;
+      font-size: 1rem;
+      border-radius: 22px;
+      padding: 4px 30px;
+      margin-bottom: 25px;
+  }
+  
+
+  
+  label{margin-top: 4px;}
+  .col1 {float: left;width: 25%;}
+  .col2 {float: left;width: 75%;}
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+  .result {position: relative;left: -72px;margin-top:42px;}  
+  .result h2 {color:#e83331; font-size: 1.2rem;}
+  table {position: absolute;left: 66px; width:100%}
+  table th, table td {font-family: 'Anybody', cursive;font-size: 1.2rem;text-align: left;padding: 3px 20px 3px 0;}   
+}
+@media only screen and (min-width: 1440px) {
+  .symbol {position: absolute; width:170px; height: auto; top:145px;right:42px;}
+   h1 { top:0; right:-59px; }
+   .content {left:22rem}
+}
+
+th {color:antiquewhite; font-weight: normal;}
+
+

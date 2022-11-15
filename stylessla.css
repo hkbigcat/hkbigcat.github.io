@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1279px) {
+    h1 {position: absolute;top:112px; left:48px}
+    .content {margin-top:2rem}
+    label,input[type=submit] {font-size: 1rem; ;}
+    input[type=submit] {border-radius: 15px; padding: 2px 16px; background-color: #8b8d8f;}
+    form {width: 142px; margin: 30px auto;}
+}
+@media only screen and (min-width: 1279px) {
+    main {background: #000 url("images/login.png") no-repeat left top;background-size: cover;}
+    .content {position:absolute;top:668px;left:100px;width:80%;}
+    h1 {position:absolute; top:19rem; left:41rem;text-align: right;}
+   form {width: 142px; margin: 30px auto;}
+    label{margin-top: 4px;}
+    .col1 {float: left;width: 25%;}
+    .col2 {float: left;width: 75%;}
+    .row {margin-bottom: 20px;}
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .flip-box {position: absolute;}
+
+    
+    label,input[type=submit] {font-size: 1.2rem;}
+    input[type=submit] {border-radius: 15px; padding: 2px 16px; background-color: #8b8d8f;}
+    input[type=submit]:hover {background-color: #fff;}
+    label.container {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+    .container input {
+        accent-color:#8b8d8f;
+    }
+    .container input {
+        margin-right: 13px;
+    }  
+}
+@media only screen and (min-width: 1440px) {
+    h1 {position:absolute; top:22rem; left:47rem}
+}
+
+
