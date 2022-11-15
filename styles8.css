@@ -11,7 +11,7 @@ body {color:black;}
   #stockphoto2{top:245px}
   #stockphoto3{top:786px;z-index: 3; }
   #stockphoto4{top:803px; bottom:0; left:0; background-color:black;width:100%;}
-  .content {top:246px;left:545px;background-color: rgba(255, 255, 255, .40); padding:5px;;border-radius: 20px;height: 150%;
+  .content {top:0; left:633px; padding:266px 10px 300px 10px;background-color: rgba(255, 255, 255, .40); border-radius: 25px;position: absolute;
   }
 
 }
@@ -22,6 +22,6 @@ body {color:black;}
   #stockphoto2{top:275px}
   #stockphoto3{top:883px;z-index: 3; bottom: 0;}
   #stockphoto4{top:904px; bottom:0; left:0; background-color:black;width:100%;}
-  .content {top:279px;left:623px;background-color: rgba(255, 255, 255, .30); padding:10px;border-radius: 20px;width:450px;
+  .content {left:633px; padding:266px 10px 200px 10px; 
   }
 }
