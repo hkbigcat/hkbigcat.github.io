@@ -4,7 +4,7 @@
     #stockphoto2{top:354px}
     #stockphoto3{top:782px;z-index: 3; }
     #stockphoto4{top:798px; bottom:0; left:0; background-color:black;width:100%;}
-    .content {   top:319px;left:716px;background-color: rgba(0, 0, 0, .20); padding:10px;;border-radius: 20px;height: 245vh;
+    .content {   top:319px;left:716px;background-color: rgba(0, 0, 0, .20); padding:10px;;border-radius: 20px;height:320%;
     }
 
 }
@@ -13,7 +13,7 @@
     #stockphoto2{top:399px}
     #stockphoto3{top:879px;z-index: 3; bottom: 0;}
     #stockphoto4{top:883px; bottom:0; left:0; background-color:black;width:100%;}
-    .content {top:366px;left:828px;background-color: rgba(0, 0, 0, .20); padding:10px;;border-radius: 20px; height: 234vh;
+    .content {top:366px;left:828px;background-color: rgba(0, 0, 0, .20); padding:10px;;border-radius: 20px; 
     }
 
 }

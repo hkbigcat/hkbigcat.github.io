@@ -13,7 +13,7 @@
 }
 @media only screen and (min-width: 1280px) {
     main {background: #000 url("images/login.png") no-repeat left top; background-size: cover;}
-    .content {position:absolute; top:10rem; left:5rem;width:40rem;}
+    .content {position:absolute; top:10rem; left:5rem;width:40rem;z-index: 4; height: unset;}
     h1 {position:absolute; top:10rem; left:37rem;text-align: right;}
     form {
         position: relative; margin-top:400px;
@@ -62,7 +62,7 @@
 
 @media only screen and (min-width: 1440px) {
     h1 {top:13rem; left:43rem} 
-    .content {bottom:10rem; left:5rem;}
+    .content {bottom:10rem; left:5rem;z-index: 4;}
     form {
         position: relative; margin-top:400px;
     }
