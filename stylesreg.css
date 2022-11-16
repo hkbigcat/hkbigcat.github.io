@@ -1,15 +1,16 @@
-input[type=submit], input[type=reset] {border-radius: 10px; padding: 2px 16px; background-color: #8b8d8f;color:#000; margin:0 1rem;}    
+input[type=submit], input[type=reset] {border-radius: 10px; padding: 2px 16px; background-color: #8b8d8f;color:#000;}    
 .last {width:20rem; margin: 2rem auto}
 @media only screen and (max-width: 1279px) {
     h1 {position: absolute;top:10rem; width:15rem; left:0; right:0; margin: 0 auto;}
-    .row {margin: 0.8rem 0;}
+    h2{font-size: 1.2rem;}
+    .row {margin: 0.8rem auto; width: 93%;}
     .content {margin-top: 2rem;}
-    textarea {width:90%};
-    .col2 {width:60vw;}
-    label,input[type=submit], input[type=reset] {font-size: 1rem;}
+    textarea {width:90%;}
+    label {margin:0;font-size: 1rem; }
+    input[type=submit], input[type=reset] {font-size: 1rem; font-weight:100;margin: 0 2rem;}
     label.container {display: block;}
-    input[type=text] {width:80%;}
-    textarea {width:80%;}
+    input[type=text] {width:93%;}
+    textarea {width:90%;}
     input.smallinput {font-size: 0.9rem; background-color: white;border-radius: 0;width:3rem}
  
 }
