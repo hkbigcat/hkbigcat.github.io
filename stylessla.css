@@ -39,7 +39,7 @@
     }  
 }
 @media only screen and (min-width: 1440px) {
-    h1 {position:absolute; top:22rem; left:47rem}
+    h1 {top:22rem; left:47rem}
 }
 
 

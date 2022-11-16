@@ -2,11 +2,9 @@ body {color:black;}
 @media only screen and (max-width: 1279px) {
   .content {padding:0 15px;border-radius: 8px;background-color: rgba(255,255,255,0.7);}
 }
-
 @media only screen and (min-width: 1280px) {
   .h1a {font-size: 3.5rem;}
   .h2a {font-size: 2rem;}
-  .stockphoto{position: fixed;}
   #stockphoto1 {top:0;z-index: 3;}
   #stockphoto2{top:245px}
   #stockphoto3{top:786px;z-index: 3; }
@@ -18,10 +16,9 @@ body {color:black;}
 @media only screen and (min-width: 1440px) {
   .h1a {font-size: 3.5rem;}
   .h2a {font-size: 2rem;}
-  #stockphoto1 {top:0;z-index: 3; bottom: 0;}
   #stockphoto2{top:275px}
-  #stockphoto3{top:883px;z-index: 3; bottom: 0;}
-  #stockphoto4{top:904px; bottom:0; left:0; background-color:black;width:100%;}
+  #stockphoto3{top:883px;}
+  #stockphoto4{top:904px;}
   .content {left:633px; padding:266px 10px 200px 10px; 
   }
 }
