@@ -1,9 +1,10 @@
-input[type=submit], input[type=reset] {border-radius: 10px; padding: 2px 16px; background-color: #8b8d8f;}    
-.last {width:20rem; margin: 2rem auto}
+input[type=submit], input[type=reset] {border-radius: 10px; padding: 2px 16px; background-color: #8b8d8f;} 
+p a, label.container {color:white}   
 @media only screen and (max-width: 1279px) {
+    .last {width:20rem; margin: 2rem 0}
     h1 {position: absolute;top:10rem; width:15rem; left:0; right:0; margin: 0 auto;}
     h2{font-size: 1.2rem;}
-    .row {margin: 0.8rem auto; width: 93%;}
+    .row {margin: 0.8rem auto; width: 90%;}
     .content {margin-top: 2rem;}
     textarea {width:90%;}
     label {margin:0;font-size: 1rem; }
@@ -15,6 +16,7 @@ input[type=submit], input[type=reset] {border-radius: 10px; padding: 2px 16px; b
  
 }
 @media only screen and (min-width: 1280px) {
+    .last {width:33rem; margin: 2rem 20rem}
     main {background: #000 url("images/login.png") no-repeat left top; background-size: cover;}
     h2 {font-size: 1.3rem; }
     h3{font-size: 1.2rem; }
@@ -42,7 +44,7 @@ input[type=submit], input[type=reset] {border-radius: 10px; padding: 2px 16px; b
         padding: 3px 5px;
     }
     select {width:300px}
-    label,input[type=submit], input[type=reset] {font-size: 1.1rem; color:#000;}
+    label,input[type=submit], input[type=reset] {font-size: 1.1rem; color:#000; margin:0 2rem}
     input[type=submit]:hover, input[type=reset]:hover {background-color: #fff;}
     input[type=text], input[type=radio] {font-size: 0.9rem;}
     textarea {width:70%;}
