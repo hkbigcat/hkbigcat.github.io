@@ -6,7 +6,7 @@
     form {width: 142px; margin: 30px auto;}
 }
 @media only screen and (min-width: 1279px) {
-    main {background: #000 url("images/login.png") no-repeat left top;background-size: cover;}
+    main {background: #000 url("/images/login.png") no-repeat left top;background-size: cover;}
     .content {position:absolute;top:668px;left:100px;width:80%;}
     h1 {position:absolute; top:19rem; left:41rem;text-align: right;}
    form {width: 142px; margin: 30px auto;}

@@ -17,7 +17,7 @@ p a, label.container {color:white}
 }
 @media only screen and (min-width: 1280px) {
     .last {width:33rem; margin: 2rem 20rem}
-    main {background: #000 url("images/login.png") no-repeat left top; background-size: cover;}
+    main {background: #000 url("/images/login.png") no-repeat left top; background-size: cover;}
     h2 {font-size: 1.3rem; }
     h3{font-size: 1.2rem; }
     form {
