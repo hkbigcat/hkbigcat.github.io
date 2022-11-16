@@ -44,9 +44,11 @@
     color: white;
     text-decoration: none;
     cursor: pointer;
+    transition: 600ms ease-in-out;
   }  
   .submenu li:hover {
     background-color: #aaaaaa;
+    width:200px;
   }
   .submenu li a:hover {
     
