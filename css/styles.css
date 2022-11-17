@@ -21,7 +21,7 @@ nav {background-color: rgba(202, 202, 202, 0.96);
 
 .closebtn {
   color:black;
-  font-size: 30px;
+  font-size: 2.2rem;
   position: absolute;
   right:10px;
   top:5px;  
@@ -167,7 +167,7 @@ p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', 'Noto Sans SC', cur
     .nav2 li > a {color: rgb(127, 110, 33);}
    
     
-    .closebtn { right: 55px;top:18px; color:#fff}
+    .closebtn { right: 0;top:18px; color:#fff; width:100px; text-align: center;}
     .logomobile{display: block; margin-left: 10px;}
     #mobilebar {display: block;}
     main { width:100%;left:0;right:0; margin: 0 auto; height: 100vh; position:absolute;}
