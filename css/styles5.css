@@ -27,9 +27,9 @@ main {height:auto;}
   .stockphoto{position: absolute;}
   .photo {position: unset;}
   .content {top:216px;left:582px;}
-  .logo_panel {position: relative;width:90%; margin: 300px auto 10px auto;}
-  .logos {width:90%}
-  .logos > div {display:inline-block; width: 250px; height: 120px; padding: 10px; }
+  .logo_panel {position: relative;width:95%; margin: 300px auto 10px auto;}
+  .logos {width:95%;;margin:0 auto}
+  .logos > div {display:inline-block; width: 220px; height: 120px; padding: 10px; }
 
   }
     
