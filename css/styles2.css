@@ -4,6 +4,7 @@ body {
   }
   main {
     background: #fff;
+    overflow-x: hidden;
   } 
   #hamburger {color:#000;}
   @media only screen and (max-width: 1279px) {

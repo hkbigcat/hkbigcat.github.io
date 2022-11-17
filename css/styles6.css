@@ -4,7 +4,8 @@
     color:white;
   }
   .stockphoto2 {height: 100vh; overflow-y: hidden;}
-  main ul {margin-left:-1.8rem}
+  main { overflow-x: hidden;}
+  main ul {margin-left:-1.8rem; }
 }    
 @media only screen and (min-width: 1280px) {
   #stockphoto1 {top:0;z-index: 3;}
