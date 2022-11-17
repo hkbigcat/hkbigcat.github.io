@@ -188,6 +188,8 @@ p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', 'Noto Sans SC', cur
     h2{font-size: 1rem;}
     #hamburger, .flip-box {position: relative;}
 
+    p {text-align: justify;}
+
     
 }
 
