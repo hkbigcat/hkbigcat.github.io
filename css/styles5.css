@@ -25,33 +25,14 @@ main {height:auto;}
   .stockphoto{position: absolute;}
   .photo {position: unset;}
   .content {top:216px;left:582px;}
-  .logo_panel {width:90%; margin: 330px auto 10px auto;}
+  .logo_panel {position: relative;width:90%; margin: 300px auto 10px auto;}
   .logos {width:90%}
   .logos > div {display:inline-block; width: 250px; height: 120px; padding: 10px; }
 
   }
-@media only screen and (min-width: 1440px) {
-  .content {top:277px;left:670px;}
-  }
     
-body {
-  margin:0;background-color: #fff;     
-  color: #000;
-}
-main {
-  background: #fff;
-} 
-#hamburger {color:#000;}
-@media only screen and (max-width: 1399px) {
-    .content {
-      padding:20px;
-      background-color: rgba(200,200,200,0.1);
-    }
-}
-@media only screen and (min-width: 1280px) {
-  .content {top:240px;left:582px;}
-  }
 @media only screen and (min-width: 1440px) {
   .content {top:329px;left:670px;}
+  .logo_panel {margin: 400px auto 10px auto;}
   }
     
