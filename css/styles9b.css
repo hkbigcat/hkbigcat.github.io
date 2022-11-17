@@ -1,4 +1,7 @@
 .flip-box, .stockphoto, .photo {position: absolute;}
+@media only screen and (max-width: 1279px) {
+    .stockphoto2 {height: 100vh; overflow-y: hidden;}
+   }
 @media only screen and (min-width: 1440px) {
 .content {top:329px;}
 }

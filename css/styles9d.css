@@ -1,4 +1,7 @@
 p a {color:white}
+@media only screen and (max-width: 1279px) {
+    .stockphoto2 {height: 100vh; overflow-y: hidden;}
+   }
 @media only screen and (min-width: 1280px) {
     #stockphoto1 {top:0;z-index: 3;}
     #stockphoto2{top:354px}
