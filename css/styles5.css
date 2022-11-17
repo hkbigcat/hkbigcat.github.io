@@ -14,7 +14,7 @@ main {height:auto;}
       padding:10px;
       background-color: rgb(255,255,255,0.3);
     }
-    .logo_panel {position: relative; width:95%; margin : 20px auto; background-color: white; left:0; right:0 }
+    .logo_panel {position: relative; width:95%; margin : 50px auto; background-color: white; left:0; right:0 }
     .logos {width:90%;margin:0 auto}
     .logos > div {display:inline-block; width: 138px; height: 120px; padding: 10px; }
 }
