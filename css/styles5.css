@@ -5,6 +5,42 @@ body {
 main {
   background: #fff;
 } 
+main {height:auto;}
+#hamburger {color:#000;}
+.flip-box {position: relative;}
+@media only screen and (max-width: 1279px) {
+  h3 {font-size: 1.5rem; color: #444444; left:0; font-family:'Anybody', cursive ; font-weight:400; border-bottom: 1px solid #444444; width: 80%}
+    .content {
+      padding:10px;
+      background-color: rgb(255,255,255,0.3);
+    }
+    .logo_panel {position: relative; width:95%; margin : 20px auto; background-color: white; left:0; right:0 }
+    .logos {width:90%}
+    .logos > div {display:inline-block; width: 138px; height: 120px; padding: 10px; }
+}
+
+
+@media only screen and (min-width: 1280px) {
+  h3 {font-size: 2rem; border-bottom: 1px solid #444444; width: 80%;}
+  .stockphoto{position: absolute;}
+  .photo {position: unset;}
+  .content {top:216px;left:582px;}
+  .logo_panel {width:90%; margin: 330px auto 10px auto;}
+  .logos {width:90%}
+  .logos > div {display:inline-block; width: 250px; height: 120px; padding: 10px; }
+
+  }
+@media only screen and (min-width: 1440px) {
+  .content {top:277px;left:670px;}
+  }
+    
+body {
+  margin:0;background-color: #fff;     
+  color: #000;
+}
+main {
+  background: #fff;
+} 
 #hamburger {color:#000;}
 @media only screen and (max-width: 1399px) {
     .content {
