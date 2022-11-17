@@ -19,10 +19,7 @@
         display: table;
         clear: both;
     }
-
     .flip-box {position: absolute;}
-
-    
     label,input[type=submit] {font-size: 1.2rem;}
     input[type=submit] {border-radius: 15px; padding: 2px 16px; background-color: #8b8d8f;}
     input[type=submit]:hover {background-color: #fff;}

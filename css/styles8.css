@@ -6,7 +6,7 @@ body {color:black;}
 @media only screen and (min-width: 1280px) {
   .h1a {font-size: 3.5rem;}
   .h2a {font-size: 2rem;}
-  #stockphoto1 {top:0;z-index: 3;}
+ 
   #stockphoto2{top:245px}
   #stockphoto3{top:786px;z-index: 3; }
   #stockphoto4{top:803px; bottom:0; left:0; background-color:black;width:100%;}

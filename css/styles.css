@@ -142,6 +142,7 @@ main {
 h2 {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 500;  font-style: normal; line-height: 1.5rem;}
 .h2cn {font-size:2rem; font-family: 'Noto Sans SC', cursive;  font-weight: 500;  font-style: normal;}
 main ul, main ol {font-size: 1rem;margin-left: 34px;font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 300;   font-style: normal; }
+main ul strong, main ol strong {font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 500;}
 main ul li, main ol li {margin-bottom: 0.8rem;line-height: 1.5rem;}
 p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', 'Noto Sans SC', cursive; font-weight: 300; font-style: normal; line-height: 1.5rem;}
 
@@ -173,7 +174,7 @@ p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', 'Noto Sans SC', cur
     main { width:100%;left:0;right:0; margin: 0 auto; height: 100vh; position:absolute;}
     .stockphoto {display:none;}
     .stockphoto2 {display: block; height:auto;margin: 0 auto;}
-    .content {
+        .content {
       position : absolute;
       top:15rem;
       left:0;
@@ -198,6 +199,7 @@ p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', 'Noto Sans SC', cur
   .nav2link:hover > .nav2 {opacity: 1;}
   .nav2link:hover ~ .nav3 {width:200px;opacity: 1;display: block;}
   main {  width:1280px;height:800px;}
+  #stockphoto1 {top:0;z-index: 3;}
    .photo {width:1280px}
    .content {
     position: relative;

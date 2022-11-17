@@ -15,7 +15,6 @@ body {
     main ul > {margin-left:-1.5rem}
   }
   @media only screen and (min-width: 1280px) {
-    #stockphoto1 {top:0;z-index: 3;}
     #stockphoto2{top:355px}
     #stockphoto4{top:814px; bottom:0; left:0; background-color:#fff;width:100%;}
     .content {top: 0; left:711px; padding:394px 10px 200px 10px; ;border-radius: 20px;border-radius: 20px; position: absolute;
