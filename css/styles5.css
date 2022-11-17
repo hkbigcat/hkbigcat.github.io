@@ -12,6 +12,8 @@ main {height:auto;}
   h3 {font-size: 1.5rem; color: #444444; left:0; font-family:'Anybody', cursive ; font-weight:400; border-bottom: 1px solid #444444; width: 80%}
     .content {
       padding:10px;
+      position: relative;
+      top:1rem;
       background-color: rgb(255,255,255,0.3);
     }
     .logo_panel {position: relative; width:95%; margin : 50px auto; background-color: white; left:0; right:0 }
