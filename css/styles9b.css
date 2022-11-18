@@ -2,7 +2,7 @@
 p a {color: white;}
 @media only screen and (max-width: 1279px) {    
     .stockphoto2 {height: 100vh; overflow-y: hidden;}
-    .news_panel {margin: 20px auto; width:92%; position: relative; top:-4rem}
+    .news_panel {margin: 50px auto; width:92%; position: relative; top:-4rem}
     .row { border-bottom: 1px solid #aaaaaa; padding: 5px 0 }
    }
 @media only screen and (min-width: 1280px) {
