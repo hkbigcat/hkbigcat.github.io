@@ -37,4 +37,7 @@ main {
   .content {top:329px;left:670px;}
   .logo_panel {margin: 400px auto 10px auto;}
   }
-    
+
+  @media print{
+    .logos > div {display:inline-block; width: 138px; height: 120px; padding: 10px; } 
+  }
