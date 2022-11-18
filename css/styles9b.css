@@ -2,13 +2,14 @@
 p a {color: white;}
 @media only screen and (max-width: 1279px) {    
     .stockphoto2 {height: 100vh; overflow-y: hidden;}
-    .news_panel {margin: 50px auto; width:92%; position: relative; top:-4rem}
+    .news_panel {margin: 50px auto; width:100%; position: relative;}
     .row { border-bottom: 1px solid #aaaaaa; padding: 5px 0 }
    }
 @media only screen and (min-width: 1280px) {
     main {padding-bottom: 1rem;}
-.content {top:329px;}
-.news_panel {margin: 292px auto 20px auto; width:80%}
+    .content {top:274px; left: unset; margin: 0 auto; width:100%}
+    section {margin-left:763px; width:485px;}
+.news_panel {margin: 90px auto 20px auto; width:100%}
 .row { border-bottom: 1px solid #aaaaaa; padding: 20px }
 h2 {margin-left: 0;}
 h3 {margin-bottom: 0; font-size: 2rem;}
@@ -16,5 +17,7 @@ p {margin: 0; line-height: 1.8rem;}
 .desc {margin: 10px 10px 10px 20px}
 }
 @media only screen and (min-width: 1440px) {
-    .news_panel {margin: 400px auto 20px auto;}
+    .content {top:335px; }
+    section {margin-left:863px;} 
+    .news_panel {margin: 90px auto 20px auto;width:100%}
 }
