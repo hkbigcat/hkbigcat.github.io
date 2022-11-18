@@ -7,6 +7,7 @@ main {
   height:auto;
 } 
 #hamburger {color:#000; }
+.flip-box {position:absolute}
 @media only screen and (max-width: 1279px) {
   h3 {font-size: 1.5rem; color: #444444; left:0; font-family:'Anybody', cursive ; font-weight:400; border-bottom: 1px solid #444444; width: 80%}
     .content {
