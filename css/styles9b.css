@@ -18,7 +18,7 @@ body {
 @media only screen and (min-width: 1280px) {
     main {padding-bottom: 1rem;}
     .h1a, p {margin-left: 48px;}
-    .content {top:274px; left: unset; margin: 0 auto; width:100%;}
+    .content {top:-12px; left: unset; margin: 0 auto; width:100%;}
     section {margin-left:763px; width:485px;background-color: rgba(0,0,0,0.2)}
     .news_panel {margin: 90px auto 20px auto; width:100%}
     .row { border-bottom: 1px solid #aaaaaa; padding: 20px }
@@ -29,7 +29,7 @@ body {
     .desc {margin: 1rem 0.7rem}
     }
 @media only screen and (min-width: 1440px) {
-    .content {top:335px; }
+    .content {top:-16px; }
     section {margin-left:863px;} 
     .news_panel {margin: 90px auto 20px auto;width:100%}
 }

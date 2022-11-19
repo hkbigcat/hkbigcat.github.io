@@ -12,7 +12,7 @@
   .photo2 {width: unset;height: unset;}
   form#submenu2 {margin-top: 20px;}
   h3 {font-size: 2rem;}
-  .content {position:absolute; top: 10rem; width: 80vw; padding: 0 1.3rem 2rem 1.3rem ; margin-bottom: 1.2rem; }
+  .content {position:absolute; top: 7rem; width: 80vw; padding: 0 1.3rem 2rem 1.3rem ; margin-bottom: 1.2rem; }
   .container {display: block; margin-bottom: 0.5rem;}
   .row {margin: 10px; }
   
@@ -27,13 +27,13 @@
 @media only screen and (min-width: 1280px) {
     #submenu2 {display: none;}  
     .submenu {
-        left:18px;
         list-style-type: none;
         display: inline-flex;
+        margin-top:11rem;
     }
     .submenu li  {
         background-color: #333;    
-        margin:0 10px;
+        margin:0 20px;
         height: 60px;
         text-align: center;
         border-radius: 10px;
@@ -59,9 +59,9 @@
 
     .h1a {font-size: 4rem}
     h3 {font-size: 2.2rem; margin-top:90px;}
-  .content {top:10rem;left:12rem;width:55rem;}
-  h1 {position:relative; top:0; right:-18px;text-align: right;}
-  .symbol {position: absolute;top:130px;right:65px; width:189px; height: auto;}
+  .content {top:0;left:12rem;width:55rem;padding-top:0}
+  h1 {position:relative; top:10rem; right:-18px;text-align: right;}
+    .symbol {position: absolute;top:130px;right:65px; width:189px; height: auto;}
   .formarea {position: absolute;top:400px;left:100px;}
   label, input[type=text] {
       font-family: 'Anybody', cursive;
@@ -69,7 +69,7 @@
   }
   label,input[type=submit] {font-size: 1.2rem;}
   
-  input[type=submit]  {border-radius: 15px; padding: 2px 16px; color:white; background-color: #8b8d8f;}
+  input[type=submit]  {border-radius: 15px; padding: 2px 16px; color:white; background-color: #8b8d8f; margin: 20px 0;}
   
   input[type=submit]:hover {background-color: #fff; color:black}
   input[type=text] {font-size: 1rem;}
@@ -112,10 +112,10 @@
 }
 @media only screen and (min-width: 1440px) {
   .symbol {position: absolute; width:170px; height: auto; top:145px;right:42px;}
-   h1 { top:0; right:-59px; }
+   h1 { top:10rem; right:-59px; }
    .content {left:22rem}
 }
-
+h2 {margin-left:-5px}
 th {color:antiquewhite; font-weight: normal;}
 
 

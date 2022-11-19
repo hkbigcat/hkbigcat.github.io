@@ -4,11 +4,11 @@ body {
 }
 main {
   background: #fff;
-  height:auto;
 } 
 #hamburger {color:#000; }
 .flip-box {position:absolute}
 @media only screen and (max-width: 1279px) {
+  main {height:auto;}
   h3 {font-size: 1.5rem; color: #444444; left:0; font-family:'Anybody', cursive ; font-weight:400; border-bottom: 1px solid #444444; width: 80%}
     .content {
       padding:10px;
@@ -26,16 +26,16 @@ main {
   h3 {font-size: 2rem; border-bottom: 1px solid #444444; width: 80%;}
   .stockphoto{position: absolute;}
   .photo {position: unset;}
-  .content {top:216px;left:582px;}
-  .logo_panel {position: relative;width:95%; margin: 300px auto 10px auto;}
+  .content {top:0;left:758px; padding-top:280px}
+  .logo_panel {position: relative;width:95%; margin: 853px auto 10px auto;}
   .logos {width:95%;;margin:0 auto}
   .logos > div {display:inline-block; width: 220px; height: 120px; padding: 10px; }
 
   }
     
 @media only screen and (min-width: 1440px) {
-  .content {top:329px;left:670px;}
-  .logo_panel {margin: 400px auto 10px auto;}
+  .content {top:52px;left:843px;}
+  .logo_panel {margin: 931px auto 10px auto;}
   }
 
   @media print{

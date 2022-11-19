@@ -85,12 +85,7 @@ nav a:hover {
 }
 
 main {
-  background: #000;
-  left:0;
-  right:0;
-  top:0;
-  margin-left:auto;
-  margin-right: auto;
+  margin: 0 auto;
   position:absolute;
 
 }
@@ -108,7 +103,7 @@ main ul, main ol {font-size: 1rem;margin-left: 34px;font-family: 'Anybody', 'Not
 main ul strong, main ol strong {font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 500;}
 main ul li, main ol li {margin-bottom: 0.8rem;line-height: 1.5rem;}
 p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', 'Noto Sans SC', cursive; font-weight: 300; font-style: normal; line-height: 1.5rem;}
-
+p a {color:white}
 @media only screen and (max-width: 1279px) {
   .flip-box {
     margin: 0 auto;
@@ -122,9 +117,9 @@ p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', 'Noto Sans SC', cur
   .closebtn { right: 0;top:18px; color:#fff; width:100px; text-align: center;}
   .logomobile{display: block; margin-left: 10px;}
   #mobilebar {display: block;}
-  main { width:100%;left:0;right:0; margin: 0 auto; height: 100vh; position:absolute;}
+  main { width:100%;margin: 0 auto; height: 100vh; }
   .stockphoto {display:none;}
-  .stockphoto2 {display: block; height:auto;margin: 0 auto;}
+  .stockphoto2 {display: block; height:fit-content;margin: 0 auto;}
   .content {
       position : absolute;
       top:15rem;
@@ -149,18 +144,22 @@ p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', 'Noto Sans SC', cur
   .flip-box, #hamburger{position:fixed;z-index: 4}
 
   main {  width:1280px;height:800px;}
-  #stockphoto1 {top:0;z-index: 3;}
-   .photo {width:1280px}
-   .content {
-    position: relative;
-    top:360px;
-    left:846px;
-    width:485px;
-    }
+  .photo {width:1280px; height: auto;}
+   #stockphoto1 {top:0;z-index: 3; width: 1280px;}
+   #stockphoto2{top:354px; width: 1280px;}
+   #stockphoto3{top:766px; width: 1280px;}
+   #stockphoto4{top:781px; width: 1280px;bottom:0; left:0; background-color:black;}
+   .content {left:762px; padding:328px 0 230px 0; border-radius: 20px; position: absolute;width:30rem;}
+  
 }
 @media only screen and (min-width: 1440px) {
   main {  width:1440px;height:900px;}
   .photo {width:1440px}
+  #stockphoto1 {width: 1440px;}
+  #stockphoto2{top:399px;width: 1440px;}
+  #stockphoto3{top:878px;width: 1440px;}
+  #stockphoto4{top:898px; bottom:0; left:0;;width: 1440px;}
+  .content {left: 820px; padding:373px 10px 200px 10px;}
 }
 @media print{
   body{
@@ -184,13 +183,15 @@ p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', 'Noto Sans SC', cur
     page-break-inside: avoid;
   }
   ul, ol, dl {
-    page-break-before:avoid;
+    page-break-before:avoid;                                       
   }
-  /* 如架構本身用一組一組的 DIV 包住，也可強制設定每組 DIV 會各自切成一頁 */
   div.pageBlock{
     page-break-before: always;
   }
   #hamburger {display: none;}
+  .closebtn {display:none;}
+  main {left:unset; position: relative;}
+  nav ul {text-align: left; position: absolute; right:0; bottom:0}
   .stockphoto{display: none;}
   .stockphoto2{display: block;width:20%; float: right;}
   .content{position: relative; background-color: unset}

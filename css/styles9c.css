@@ -1,19 +1,1 @@
 p a {color:white}
-@media only screen and (max-width: 1279px) {
-    main ul {margin-left:-1.8rem}
-}
-@media only screen and (min-width: 1280px) {
-    #stockphoto2{top:354px}
-    #stockphoto3{top:779px;z-index: 3; }
-    #stockphoto4{top:784px; bottom:0; left:0; background-color:black;width:100%;}
-    .content {top:0;left:745px;background-color: rgba(0, 0, 0, .20); padding:335px 10px 200px 10px; border-radius: 20px;position: absolute;
-    }
-}
-@media only screen and (min-width: 1440px) {
-    #stockphoto1 {top:0;z-index: 4; bottom: 0; z-index: 3; height: fit-content;}
-    #stockphoto2{top:399px;}
-    #stockphoto3{top:878px;z-index: 3; bottom: 0;}
-    #stockphoto4{top:883px; bottom:0; left:0; background-color:black;width:100%;z-index: 5;}
-    .content {top:0;left:828px;padding: 373px 10px 200px 10px; 
-    }
-} 
