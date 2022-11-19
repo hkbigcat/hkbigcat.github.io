@@ -75,7 +75,7 @@ main {
   margin: 0 auto;
   position:relative;
 }
-.stockphoto {position: fixed; width: 100%;}
+.stockphoto {position: fixed}
 .stockphoto2 {display:none;width:80%;text-align: center;}
 .photo {position: fixed; height: auto;}
 .photo2 {opacity: 0.5;width:100%; height:auto;}

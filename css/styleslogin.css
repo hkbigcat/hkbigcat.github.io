@@ -35,8 +35,8 @@
     }
     label,input[type=submit] {font-size: 1.2rem;}
     input[type=submit] {border-radius: 15px; padding: 2px 16px; background-color: #8b8d8f;}
-    input[type=submit]:hover {background-color: #fff;}
-    input[type=text], input[type=password] {font-size: 1rem;}
+    input {font-size: 1rem;}
+    input:focus {background-color:white}
     label.container {
         display: block;
         margin-bottom: 20px;
@@ -63,5 +63,6 @@
 @media only screen and (min-width: 1440px) {
     h1 {top:13rem; left:43rem} 
     .content {bottom:10rem; left:5rem;}
+    input:focus {background-color:white}
 }
 

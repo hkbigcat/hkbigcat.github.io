@@ -1,5 +1,6 @@
 .flip-box, .stockphoto, .photo {position: absolute;}
 p a {color: white;}
+p a:hover{color:antiquewhite}
 body {
     counter-reset: section;
   }
@@ -20,7 +21,7 @@ body {
     .h1a, p {margin-left: 48px;}
     .content {top:-12px; left: unset; margin: 0 auto; width:100%;}
     section {margin-left:763px; width:485px;background-color: rgba(0,0,0,0.2)}
-    .news_panel {margin: 90px auto 20px auto; width:100%}
+    .news_panel {margin: 90px auto 20px auto; width:90%}
     .row { border-bottom: 1px solid #aaaaaa; padding: 20px }
     h2 {margin-left: 0;}
     h3 {margin-bottom: 0; font-family: 'Anybody', 'Noto Sans SC', cursive; font-size: 1rem;font-weight: 500; white-space: pre;}
@@ -31,5 +32,4 @@ body {
 @media only screen and (min-width: 1440px) {
     .content {top:-16px; }
     section {margin-left:863px;} 
-    .news_panel {margin: 90px auto 20px auto;width:100%}
 }

@@ -1,4 +1,8 @@
-input[type=submit], input[type=reset] {border-radius: 10px; padding: 2px 16px; background-color: #cccccc;} 
+input[type=submit], input[type=reset] {border-radius: 10px; padding: 2px 16px; background-color: #dddddd;  } 
+input[type=submit]:hover, input[type=reset]:hover {background-color: white; color: #000;}
+
+select {color: black; background-color: #cccccc; font-size: 1rem;}
+input:focus {background-color:white}
 p a, label.container {color:white}   
 @media only screen and (max-width: 1279px) {
     .last {width:20rem; margin: 2rem 0}
@@ -10,11 +14,12 @@ p a, label.container {color:white}
     .content {margin-top: 1rem;}
     textarea {width:90%;}
     label {margin:0;font-size: 1rem; }
-    input[type=submit], input[type=reset] {font-size: 1rem; font-weight:100;margin: 0 2rem; color: white;}
+    input[type=submit], input[type=reset] {font-size: 1rem; font-weight:100;margin: 0 2rem; color: black;}
     label.container {display: block;}
     input[type=text] {width:93%;}
     textarea {width:90%;}
-    input.smallinput {font-size: 0.9rem; background-color: white;border-radius: 0;width:3rem}
+    input.smallinput {font-size: 0.9rem; background-color: white;border-radius: 0;width:3rem;}
+    blockquote {margin-left: 0;}
  
 }
 @media only screen and (min-width: 1280px) {
@@ -29,7 +34,7 @@ p a, label.container {color:white}
         width: 100%;
         margin-top: 2rem;
     }
-    .content {position:absolute;left:5rem;width:100%; z-index: 3;}
+    .content {position:absolute;left:5rem;width:100%; z-index: 3; padding-top: 545px;}
     h1 {position:absolute; top:19rem; left:41rem;text-align: right;}
     label{margin-top: 4px;}
     .col1 {float: left;width: 25%;}
@@ -41,6 +46,7 @@ p a, label.container {color:white}
         clear: both;
     }
     .flip-box {position: absolute;}
+    input {border:none; color: black; background-color: #cccccc; font-size: 1rem; border-radius: 22px; padding: 4px 30px; margin-bottom: 25px; }
     label, input[type=text], select {
         font-family: 'Anybody', cursive;
         font-weight: 400;
@@ -49,8 +55,7 @@ p a, label.container {color:white}
     select {width:70%; height: 2rem;}
     label {font-size: 1.1rem; color:#fff;}
     input[type=submit], input[type=reset]  {color:white; margin:0 2rem; font-size: 1.3rem; background-color: #8b8d8f;}
-    input[type=submit]:hover, input[type=reset]:hover {background-color: #fff;color:black}
-    input[type=text], input[type=radio] {font-size: 0.9rem;}
+        input[type=text], input[type=radio] {font-size: 0.9rem;}
     textarea {width:70%; background-color: #cccccc;}
     label.container {
         display: block;
@@ -66,14 +71,7 @@ p a, label.container {color:white}
         margin-right: 13px;
     }
     input[type=text] {
-        border:none;
         width:70%;
-        color: black;
-        background-color: #aaaaaa;
-        font-size: 1rem;
-        border-radius: 22px;
-        padding: 4px 30px;
-        margin-bottom: 25px;
     }
     input.smallinput {font-size: 0.9rem; background-color: white;border-radius: 0;width:3rem}
     p, h2 {margin-left: 0;}
@@ -82,4 +80,5 @@ p a, label.container {color:white}
 @media only screen and (min-width: 1440px) {
     h1 {left:48rem;top:24rem}
     .content {top:13rem;left:5rem;width:100%;}
+    
 }
