@@ -3,7 +3,6 @@ body {
   color: white;
   overflow-x: hidden;
 }
-
 nav {background-color: rgba(202, 202, 202, 0.96);
   color: rgb(20, 20, 20); 
   height: 100vh;
@@ -18,7 +17,6 @@ nav {background-color: rgba(202, 202, 202, 0.96);
   padding-right: 30px;
   opacity: 0;
 }
-
 .closebtn {
   color:black;
   font-size: 2.2rem;
@@ -27,18 +25,14 @@ nav {background-color: rgba(202, 202, 202, 0.96);
   top:5px;  
   cursor:pointer;
 }
-
 #hamburger {color:#fff; font-size:34px;cursor:pointer; margin-top:10px; margin-left: 20px; opacity: 1;z-index: 3;position: fixed;}
 #mobilebar {display:none; width:100%; position: absolute;margin: 0; top:0; background-color: #000; height:55px;padding: 8px 0 5px 20px;}
-
 .logo {width: min(95vw, 160px);}
-
 .flip-box {
   background-color: transparent;
   left:0;
   right:0;
 }
-
 .flip-box-inner {
   position: relative;
   width: 100%;
@@ -47,11 +41,9 @@ nav {background-color: rgba(202, 202, 202, 0.96);
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-
 .flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);
 }
-
 .flip-box-front, .flip-box-back {
   position: absolute;
   width: 100%;
@@ -59,18 +51,15 @@ nav {background-color: rgba(202, 202, 202, 0.96);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 .flip-box-front {
   background-color: #bbb;
   color: black;
 }
-
 .flip-box-back {
   background-color: #555;
   color: white;
   transform: rotateY(180deg);
 }
-
 nav ul  {margin: 50px 0 0 0; text-align: right;}
 nav > ul > li {list-style: none;padding: 10px 20px}
 nav a {color: #555; 
@@ -79,15 +68,12 @@ nav a {color: #555;
   display: block;
   font-family: 'Noto Sans SC', 'Anybody', cursive ; font-weight:400; 
 }
-
 nav a:hover {
   color:#000;
 }
-
 main {
   margin: 0 auto;
-  position:absolute;
-
+  position:relative;
 }
 .stockphoto {position: fixed; width: 100%;}
 .stockphoto2 {display:none;width:80%;text-align: center;}
