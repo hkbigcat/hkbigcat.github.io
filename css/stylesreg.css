@@ -80,6 +80,6 @@ p a, label.container {color:white}
       
 }
 @media only screen and (min-width: 1440px) {
-    h1 {left:47rem}
+    h1 {left:48rem;top:24rem}
     .content {top:13rem;left:5rem;width:100%;}
 }
