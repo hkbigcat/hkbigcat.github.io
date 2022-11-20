@@ -10,7 +10,7 @@ nav {background-color: rgba(202, 202, 202, 0.96);
   position: fixed;
   left:0;
   top:0;
-  z-index: 4;
+  z-index: 5;
   overflow-y: auto;
   transition: width 500ms ease-in-out, opacity 500ms ease-in-out, visibility 500ms ease-in-out;
   padding-top: 20px;
