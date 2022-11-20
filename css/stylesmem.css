@@ -67,7 +67,7 @@
       font-family: 'Anybody', cursive;
       font-weight: 400;
   }
-  label,input[type=submit] {font-size: 1.2rem;}
+  label,input[type=submit] {font-size: 1.2rem;} 
   
   input[type=submit]  {border-radius: 15px; padding: 2px 16px; color:white; background-color: #8b8d8f; margin: 20px 0;}
   
@@ -92,6 +92,7 @@
       border-radius: 22px;
       padding: 4px 30px;
       margin-bottom: 25px;
+      width:10rem;
   }
   
 
