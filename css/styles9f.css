@@ -2,12 +2,13 @@ a[href^="tel"] {
     color: inherit; 
     text-decoration: underline; 
   }
-  @media only screen and (max-width: 1279px) {
+.center {display: block; margin-left: 4.25rem;} 
+@media only screen and (max-width: 1279px) {
     .stockphoto2 {height: 100vh; overflow-y: hidden;}
    }
 @media only screen and (min-width: 1280px) {
     #hamburger {color:black}
-    .content {padding-bottom: 200px;}
+    .content {padding-bottom: 250px;}
 }
 @media only screen and (min-width: 1370px) {
     #hamburger {color:white}
@@ -15,7 +16,7 @@ a[href^="tel"] {
 @media only screen and (min-width: 1440px) {
     h1{margin-bottom: 20px;}
     .h2a {margin-top: 25px;}
-    .content {padding-bottom: 20px;}
+    .content {padding-bottom: 150px;}
 } 
 @media only screen and (min-width: 1530px) {
     #hamburger {color:white}
