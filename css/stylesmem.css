@@ -20,6 +20,7 @@
   input, label, select {font-size: 1rem;}
   select {width:90%; }
   input[type=text] {width:90%}
+  select {width:90%; font-size: 1rem; padding:10px;}
   .result{overflow-x: scroll;}
   table{width:30rem;}
   th, td {text-align: left; font-size: 1.1rem;}
@@ -27,35 +28,53 @@
 @media only screen and (min-width: 1280px) {
     #submenu2 {display: none;}  
     .submenu {
-        list-style-type: none;
-        display: inline-flex;
-        margin-top:11rem;
-    }
-    .submenu li  {
-        background-color: #333;    
-        margin:0 20px;
-        height: 60px;
-        text-align: center;
-        border-radius: 10px;
-    }
-  .submenu li a {
-    display: block;
-    padding: 8px 3px;
-    width: 155px;
-    font-size: 0.9rem;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    transition: 600ms ease-in-out;
-  }  
-  .submenu li:hover {
-    background-color: #aaaaaa;
-    width:200px;
+      list-style-type: none;
+      display: inline-flex;
+      margin-top:11rem;
+      margin-left: -65px;
+      
   }
-  .submenu li a:hover {
-    
-    color:black;
+  .submenu li  {
+      background-color: #333;    
+      margin:0;
+      padding:15px;
+      height: 60px;
+      text-align: center;
+      border-right: 1px solid #8b8d8f;
+      text-shadow: rgba(245,245,245,0.5) 3px 5px 1px;
+      
+
   }
+
+  .submenu li:nth-child(1) {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+
+  }
+
+  .submenu li:last-child {
+      border:none;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+
+.submenu li a {
+  display: block;
+  padding: 8px 3px;
+  width: 155px;
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 600ms ease-in-out;
+}  
+
+
+.submenu li a:hover {
+  background-color: #aaaaaa;
+  width:200px;
+  color:black;
+}  
 
     .h1a {font-size: 4rem}
     h3 {font-size: 2.2rem; margin-top:90px;}
