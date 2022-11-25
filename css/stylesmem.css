@@ -129,7 +129,7 @@
   .result h2 {color:#e83331; font-size: 1.2rem;}
   table {position: absolute;left: 66px; width:100%}
   table th, table td {font-family: 'Anybody', cursive;font-size: 1.2rem;text-align: left;padding: 3px 20px 3px 0;}   
-  .guideline {float:right; margin-right: 10px;}
+  .guideline {float:right; margin-right: 10px; margin-top:-73px;}
   .guideline a:hover{background-color: aliceblue;color: black;}
 }
 @media only screen and (min-width: 1440px) {
