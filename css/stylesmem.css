@@ -91,7 +91,7 @@
   input[type=submit]  {border-radius: 15px; padding: 2px 16px; color:white; background-color: #8b8d8f; margin: 20px 0;}
   
   input[type=submit]:hover {background-color: #fff; color:black}
-  input[type=text] {font-size: 1rem;}
+  input[type=text] {font-size: 1rem; }
   label.container {
       display: block;
       margin-bottom: 15px;
@@ -108,13 +108,14 @@
       color: black;
       background-color: #aaaaaa;
       font-size: 1rem;
-      border-radius: 22px;
+      border-radius: 10px;
       padding: 4px 30px;
       margin-bottom: 25px;
+      line-height: 1.5rem;
       width:10rem;
   }
   
-
+  input[type=text]:focus {background-color:white}
   
   label{margin-top: 4px;}
   .col1 {float: left;width: 25%;}
