@@ -12,7 +12,7 @@ th {color:antiquewhite; font-weight: normal; line-height: 2rem;}
 td {min-width: 8px;}
 .records > table {border: 1px solid #333; width:550px;padding:20px; background-color: #f7f7f7;color:#000;box-shadow: 5px 10px #888888;}
 .records tr:nth-child(even) {background-color: unset}
-.records td {padding: 5px 10px; vertical-align: top; font-size: 0.9rem;}
+.records td {padding: 5px 10px; vertical-align: top; font-size: 0.9rem;font-family: 'Anybody', 'Noto Sans TC', cursive; }
 .fa {margin-right: 5px;}
 .guideline a {font-size: 0.9rem; color:#caacacd6}
 .notes > * {font-size: 0.9em; color: #aaaaaa;}
