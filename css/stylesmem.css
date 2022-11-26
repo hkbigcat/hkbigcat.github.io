@@ -22,6 +22,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
 
 @media only screen and (max-width: 1279px) {
   #searchfrm {position: relative; height: 250px ;}
+  .notes {margin-bottom: 2rem; }
   .col2 {width:70%;}
   .records > table {overflow-x: auto;}
   .last10 {margin-top: 20px;}
@@ -113,7 +114,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
 
     .h1a {font-size: 4rem}
     h3 {font-size: 2.2rem; margin-top:90px;}
-  .content {top:0;width:55rem;padding-top:0; position: relative; margin: 0 auto; left:unset}
+  .content {top:0;width:55rem;padding-top:0; position: relative; margin: 0 auto; left:unset; padding-bottom: 20px;}
   h1 {position:relative; top:12rem; right:-183px;text-align: right;}
     .symbol {position: absolute;top:130px;right:65px; width:189px; height: auto;}
   .formarea {position: absolute;top:400px;left:100px;}
