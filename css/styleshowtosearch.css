@@ -1,5 +1,5 @@
 * {color:white;background-color: black;}
-main {position: relative; width:600px; margin: 20px auto 50px auto; padding:30px; border-left: 1px solid #aaaaaa; border-top: 1px solid #aaaaaa; height: max-content;}
+main {position: relative; width:90%; margin: 20px auto 50px auto; padding:30px; border: 1px solid #aaaaaa; border-top: 1px solid #aaaaaa; height: max-content;}
 p {font-size: 1rem;font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 300;   font-style: normal; }
 p strong {font-size: 1.2rem; font-weight: 500;}
 .fa {margin-right: 10px;}

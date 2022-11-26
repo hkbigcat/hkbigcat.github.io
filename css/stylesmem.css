@@ -38,12 +38,11 @@
       background-color: #333;    
       margin:0;
       padding:15px;
+      width: 155px;
       height: 60px;
       text-align: center;
       border-right: 1px solid #8b8d8f;
-      text-shadow: rgba(245,245,245,0.5) 3px 5px 1px;
-      
-
+      transition: 600ms ease-in-out;
   }
 
   .submenu li:nth-child(1) {
@@ -61,20 +60,24 @@
 .submenu li a {
   display: block;
   padding: 8px 3px;
-  width: 155px;
+  
   font-size: 0.9rem;
   color: white;
   text-decoration: none;
   cursor: pointer;
-  transition: 600ms ease-in-out;
+  transition: color 600ms ease-in-out;
 }  
 
+.submenu li:hover  {
+    background-color: #aaaaaa;
+    width:200px;
+  
+}  
 
-.submenu li a:hover {
-  background-color: #aaaaaa;
-  width:200px;
+.submenu li:hover a {
   color:black;
-}  
+}
+
 
     .h1a {font-size: 4rem}
     h3 {font-size: 2.2rem; margin-top:90px;}
