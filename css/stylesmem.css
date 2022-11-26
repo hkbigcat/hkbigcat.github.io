@@ -45,10 +45,10 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   .container {display: block; margin-bottom: 0.5rem;}
   .row {margin: 10px; }
   
-  input[type=submit], input[type=button]  {border-radius: 12px; padding: 2px 8px; background-color: #8b8d8f; color:white; margin: 0 auto; font-size: 1rem;} 
-  input, label, select {font-size: 1rem;}
+  input[type=submit], input[type=button]  {border-radius: 12px; padding: 2px 8px; background-color: #8b8d8f; color:white; margin: 10px auto; font-size: 1rem;} 
+  input, label, select {font-size: 0.9rem;}
   select {width:90%; }
-  input[type=text] {width:90%}
+  input[type=text] {width:90%; margin-bottom: 10px;}
   select {width:90%; font-size: 1rem; padding:10px;}
   .result {overflow-x: hidden;}
   .results {overflow-x: scroll;}
