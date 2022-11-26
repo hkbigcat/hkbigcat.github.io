@@ -1,6 +1,5 @@
 input {font-size: 1rem;}
 .userInfo {margin: 0 auto 20px auto; color: antiquewhite;}
-.changepass a {color:#caacacd6}
 .fa {margin-right: 10px;}
 .col1 {float: left;width: 30%; }
 .col2 {float: left;}
@@ -15,7 +14,7 @@ td {min-width: 8px;}
 .records tr:nth-child(even) {background-color: unset}
 .records td {padding: 5px 10px; vertical-align: top; font-size: 0.9rem;font-family: 'Anybody', 'Noto Sans TC', cursive; }
 .fa {margin-right: 5px;}
-.guideline a {font-size: 0.9rem; color:#caacacd6}
+.guideline a {font-size: 0.9rem;}
 .notes > * {font-size: 0.9em; color: #aaaaaa;}
 p strong {color:antiquewhite; font-weight: 400;}
 h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
@@ -58,6 +57,8 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   .changepass {position: relative; }
     }
 @media only screen and (min-width: 1280px) {
+  .changepass a {color:#caacacd6}
+  .guideline a {color:#caacacd6}
     .flip-box {position: absolute;}
     #submenu2 {display: none;}  
     .submenu {
