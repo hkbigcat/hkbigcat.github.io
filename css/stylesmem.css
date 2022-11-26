@@ -31,6 +31,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   h1 {position: relative;
     top:0;
     text-align: right;
+    right:2rem;
     font-size: 1rem;
     z-index: 4;
     margin:0;
