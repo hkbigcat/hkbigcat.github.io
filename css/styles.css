@@ -91,6 +91,10 @@ main ul strong, main ol strong {font-family: 'Anybody', 'Noto Sans SC', cursive;
 main ul li, main ol li {margin-bottom: 0.8rem;line-height: 1.5rem;}
 p {font-size: 1rem;margin-left: 70px;font-family: 'Anybody', 'Noto Sans SC', cursive; font-weight: 300; font-style: normal; line-height: 1.5rem;}
 p a {color:white}
+a[href^="tel"] {
+  color: inherit; 
+  text-decoration: underline; 
+}
 @media only screen and (max-width: 1279px) {
   .flip-box {
     margin: 0 auto;

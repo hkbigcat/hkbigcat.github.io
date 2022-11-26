@@ -1,7 +1,3 @@
-a[href^="tel"] {
-    color: inherit; 
-    text-decoration: underline; 
-  }
 .center {display: block; margin-left: 4.25rem;} 
 @media only screen and (max-width: 1279px) {
     .stockphoto2 {height: 100vh; overflow-y: hidden;}

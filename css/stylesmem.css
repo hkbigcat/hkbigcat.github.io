@@ -21,7 +21,9 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
 
 
 @media only screen and (max-width: 1279px) {
-  #searchfrm {margin-bottom: 250px;}
+  main {overflow-x: hidden;}
+  #searchfrm {position: relative; height: 250px ;}
+  .col2 {width:70%;}
   .records > table {overflow-x: auto;}
   .last10 {margin-top: 20px;}
   .symbol {display: none;}
@@ -33,11 +35,12 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
     z-index: 4;
     margin:0;
   }
-  .stockphoto2 {height: 100vh; overflow-y: hidden;}
+  .stockphoto2 {position:absolute; height: 100vh; overflow-y: hidden;}
   .photo2 {width: unset;height: unset;}
   form#submenu2 {margin-top: 20px;}
   h3 {font-size: 2rem;}
-  .content {position:relative; top: -38rem; width: 80vw; padding: 0 1.3rem 2rem 1.3rem ; margin-bottom: 1.2rem; }
+  .content {position:relative; top: 50px; width: 90vw; padding: 0 1.3rem 2rem 1.3rem ; margin-bottom: 1.2rem; }
+
   .container {display: block; margin-bottom: 0.5rem;}
   .row {margin: 10px; }
   
@@ -49,6 +52,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   .result {overflow-x: hidden;}
   .results {overflow-x: scroll;}
   .result form, .result .records {overflow-x: auto; padding: 10px 0}
+  .no_record {width:80vw}
   table{width:30rem;}
   th, td {text-align: left; font-size: 1.1rem;}
   .changepass {position: relative; }
