@@ -22,7 +22,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
 
 @media only screen and (max-width: 1279px) {
   #searchfrm {position: relative; height: 250px ;}
-  .notes {margin-bottom: 2rem; }
+  .notes {padding-bottom: 2rem; }
   .col2 {width:70%;}
   .records > table {overflow-x: auto;}
   .last10 {margin-top: 20px;}
