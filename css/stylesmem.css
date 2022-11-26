@@ -7,6 +7,7 @@ input {font-size: 1rem;}
 table td, main ul li, main ol li {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 300; }
 table th {font-size: 1.2rem;}
 table td {font-size: 1rem; font-weight: 300;}
+table.only1 {width: max-content;}
 tr:nth-child(even) {background-color: rgba(230,230,230,0.4)}
 th {color:antiquewhite; font-weight: normal; line-height: 2rem;}
 td {min-width: 8px;}
@@ -21,7 +22,6 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
 
 
 @media only screen and (max-width: 1279px) {
-  main {overflow-x: hidden;}
   #searchfrm {position: relative; height: 250px ;}
   .col2 {width:70%;}
   .records > table {overflow-x: auto;}
@@ -30,7 +30,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   .submenu {display: none;}
   h1 {position: relative;
     top:0;
-    left:2rem;
+    text-align: right;
     font-size: 1rem;
     z-index: 4;
     margin:0;
@@ -39,7 +39,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   .photo2 {width: unset;height: unset;}
   form#submenu2 {margin-top: 20px;}
   h3 {font-size: 2rem;}
-  .content {position:relative; top: 50px; width: 90vw; padding: 0 1.3rem 2rem 1.3rem ; margin-bottom: 1.2rem; }
+  .content {position:relative; top: 50px; width: 90vw; padding: 0; margin-bottom: 1.2rem; }
 
   .container {display: block; margin-bottom: 0.5rem;}
   .row {margin: 10px; }
@@ -56,8 +56,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   table{width:30rem;}
   th, td {text-align: left; font-size: 1.1rem;}
   .changepass {position: relative; }
-
-  }
+    }
 @media only screen and (min-width: 1280px) {
     .flip-box {position: absolute;}
     #submenu2 {display: none;}  
@@ -162,7 +161,6 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
 
   .result {position: relative; margin: 22px auto}  
   table {position:relative;width:100%; margin-bottom: 50px;}
-  table.only1 {width: max-content;}
   table th, table td {font-family: 'Anybody', cursive; text-align: left;padding: 5px 30px;}   
     .guideline {float:right; margin-right: 0; margin-top:-68px; }
   p a:hover{background-color: aliceblue;color: black;}
