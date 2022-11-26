@@ -34,10 +34,11 @@ input {font-size: 1rem;}
         background-color: #333;    
         margin:0;
         padding:15px;
+        width: 155px;   
         height: 60px;
         text-align: center;
         border-right: 1px solid #8b8d8f;
-        text-shadow: rgba(245,245,245,0.5) 3px 5px 1px;
+        transition: 600ms ease-in-out;
 
     }
 
@@ -61,15 +62,19 @@ input {font-size: 1rem;}
     color: white;
     text-decoration: none;
     cursor: pointer;
-    transition: 600ms ease-in-out;
+    transition: color 600ms ease-in-out;
   }  
 
 
-  .submenu li a:hover {
+  .submenu li:hover  {
     background-color: #aaaaaa;
     width:200px;
+  
+    }  
+
+    .submenu li:hover a {
     color:black;
-  }    
+    }
    .changepass {position: relative; float: right; top:-80px}
 
    .changepass a:hover {background-color: antiquewhite; color: #000;}
