@@ -11,7 +11,7 @@
     <title>Daily Credit Management Ltd - Online Services - Civil Litigation Check</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100;300;500&family=Noto+Sans+TC&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100;300;500&family=Noto+Sans+TC:wght@300&family=Raleway&display=swap" rel="stylesheet">
     <script src="/js/scripts.js" defer></script>
 </head>
 <body>
@@ -68,79 +68,36 @@
             <form id="submenu2">
                 <select name="mobilesubmenu" onchange="document.location.href = this.value">
                     <option value="member-main.html">Main</option>
-                    <option value="member-civil_litigation_check.html">Civil Litigation Check</option>
-                    <option selected value="member-auto_credit_monitoring_defendant.html">Auto Credit Monitoring (Defendant)</option>
-                    <option value="member-civil_litigation_check.html">Auto Credit Monitoring (Plaintiff)</option>
+                    <option  selected value="member-civil_litigation_check.html">Civil Litigation Check</option>
+                    <option value="member-auto_credit_monitoring_defendant.html">Auto Credit Monitoring (Defendant)</option>
+                    <option value="member-auto_credit_monitoring_plaintiff.html">Auto Credit Monitoring (Plaintiff)</option>
                 </select>
             </form>
-            <h3>Auto Credit Monitoring (Defendant)</h2>
-                <p class="guideline"><a href="#" onclick="window.open('How_To_Search.html','popUpWindow','height=500,width=800,left=200,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');"><i class="fa fa-file-text-o" aria-hidden="true"></i> General Guideline for Search String Input</a></p>   
-                <form id="searchfrm">
-                    <div class="row">
-                        <div class="col1">
-                            <label for="Subject">Subject:</label>
-                        </div>
-                        <div class="col2">
-                            <input type="text" id="subject" name="search_text" size="40" placeholder="Type Subject here...">
-                        </div>
-                    </div>            
-                    <div class="row">
-                        <div class="col1">
-                            <p></p>
-                        </div>
-                        <div class="col2">
-                        <label class="container"><input type="radio" name="search_phase" value="1">The Left Partial Phrase Search</label>
-                        <label class="container"><input type="radio" name="search_phase" value="2">Exact Phrase Search</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col1">
-                            <label for="Subject">Search Option:</label>
-                        </div>
-                        <div class="col2">
-                            <label class="container"><input type="radio" name="search_option" value="1">Defendant / Respondent / Claimant / Judgment Debtor</label>
-                            <label class="container"><input type="radio" name="search_option" value="2">Plaintiff / Applicant / Petitioner / Judgment Creditor</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col1">
-                            <p></p>
-                        </div>
-                        <div class="col2">
-                            <input name="Submit" type="submit" value="Submit" onclick="temp();return false;">
-                        </div>
-                    </div>
-                </form> 
-                <hr>
-                <h2>Last 10 Searches</h2>
-                <div class="results">    
-                <table>
+            <h3>Civil Litigation Check</h2>
+            
+            <div class="result">
+                <p><strong>Subject Name:</strong> HENDERSON LAND DEVELOPMENT CO LTD</p>
+                <p>The following names can be found in our Database. </p>
+                <form>
+                <table class="only1">
                     <tr>
-                        <th>Date</th>
-                        <th>Search type</th>
-                        <th>Subject Name</th>
+                        <th>Name</th>
                     </tr>
                     <tr>
-                        <td>15-04-2020</td>
-                        <td>Defendant</td>
-                        <td>TOY BARK WEN</td>
+                        <td><label for="s1"><input type="radio" id="s1" value="HENDERSON LAND DEVELOPMENT CO LTD" name="search_text"> HENDERSON LAND DEVELOPMENT CO LTD</label></td>
                     </tr>
                     <tr>
-                        <td>15-04-2020</td>
-                        <td>Defendant</td>
-                        <td>GALAXY ADVANCE LTD</td>
+                        <td><label for="s2"><input type="radio" checked id="s2" value="All of the above" name="search_text"> All of the above</label></td>
                     </tr>
-                    <tr>
-                        <td>15-04-2020</td>
-                        <td>Defendant</td>
-                        <td>GALAXY ADVANCE LTD</td>
-                    </tr>
-                    <tr>
-                        <td>15-04-2020</td>
-                        <td>Defendant</td>
-                        <td>GALAXY ADVANCE LTD</td>
-                    </tr>                      
-                </table>           
+                </table>
+            </form>    
+                <p>Are you sure to proceed with the above result?
+                    <input type="submit" name="search_submit" value="Yes" onclick="temp1();return false;">
+                    <input type="button" name="search_submit" value="No" onclick="temp2();return false;"> 
+                </p>
+
+                <p>Press <a href="member-civil_litigation_check.html" title="Search again">here</a> to return</p>
+
             </div>
             <hr>
             <div class="notes">
@@ -155,16 +112,20 @@
                     <li>BO = Bankruptcy Order (破產通知), AO = Annulment Order (撤銷破產令通知)</li>
                 </ol>
                 <p>Daily Credit Management Ltd (DCM) does not warrant the completeness of this report or any of the information contained herein. DCM is not liable for any loss, damage or injuiry caused by negligence or other act or failure of DCM in procuring, collecting or communicating any such information. Reliance on any information contained herein shall be solely at the user's risks and shall constitute a waiver of any claim against and a release of DCM. This report is furnished in strict confidence for your exclusive use for legitimate business purposes and for no other purpose.</p>
-            </div>                
+            </div>
+
         </div>
     </main>
 
     <script>
         // remove this script when live
-        function temp() {
-            window.location.href="search.html";
+        function temp1() {
+            window.location.href="search_results.html";
         }
-    </script>
+        function temp2() {
+            window.location.href="member-civil_litigation_check.html";
+        }
+</script>
 
 </body>
 </html>

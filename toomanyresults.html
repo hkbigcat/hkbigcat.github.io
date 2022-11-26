@@ -11,7 +11,7 @@
     <title>Daily Credit Management Ltd - Online Services - Civil Litigation Check</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100;300;500&family=Noto+Sans+TC&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100;300;500&family=Noto+Sans+TC:wght@300&family=Raleway&display=swap" rel="stylesheet">
     <script src="/js/scripts.js" defer></script>
 </head>
 <body>
@@ -68,79 +68,67 @@
             <form id="submenu2">
                 <select name="mobilesubmenu" onchange="document.location.href = this.value">
                     <option value="member-main.html">Main</option>
-                    <option value="member-civil_litigation_check.html">Civil Litigation Check</option>
-                    <option selected value="member-auto_credit_monitoring_defendant.html">Auto Credit Monitoring (Defendant)</option>
-                    <option value="member-civil_litigation_check.html">Auto Credit Monitoring (Plaintiff)</option>
+                    <option  selected value="member-civil_litigation_check.html">Civil Litigation Check</option>
+                    <option value="member-auto_credit_monitoring_defendant.html">Auto Credit Monitoring (Defendant)</option>
+                    <option value="member-auto_credit_monitoring_plaintiff.html">Auto Credit Monitoring (Plaintiff)</option>
                 </select>
             </form>
-            <h3>Auto Credit Monitoring (Defendant)</h2>
-                <p class="guideline"><a href="#" onclick="window.open('How_To_Search.html','popUpWindow','height=500,width=800,left=200,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');"><i class="fa fa-file-text-o" aria-hidden="true"></i> General Guideline for Search String Input</a></p>   
-                <form id="searchfrm">
-                    <div class="row">
-                        <div class="col1">
-                            <label for="Subject">Subject:</label>
-                        </div>
-                        <div class="col2">
-                            <input type="text" id="subject" name="search_text" size="40" placeholder="Type Subject here...">
-                        </div>
-                    </div>            
-                    <div class="row">
-                        <div class="col1">
-                            <p></p>
-                        </div>
-                        <div class="col2">
-                        <label class="container"><input type="radio" name="search_phase" value="1">The Left Partial Phrase Search</label>
-                        <label class="container"><input type="radio" name="search_phase" value="2">Exact Phrase Search</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col1">
-                            <label for="Subject">Search Option:</label>
-                        </div>
-                        <div class="col2">
-                            <label class="container"><input type="radio" name="search_option" value="1">Defendant / Respondent / Claimant / Judgment Debtor</label>
-                            <label class="container"><input type="radio" name="search_option" value="2">Plaintiff / Applicant / Petitioner / Judgment Creditor</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col1">
-                            <p></p>
-                        </div>
-                        <div class="col2">
-                            <input name="Submit" type="submit" value="Submit" onclick="temp();return false;">
-                        </div>
-                    </div>
-                </form> 
-                <hr>
-                <h2>Last 10 Searches</h2>
-                <div class="results">    
-                <table>
+            <h3>Civil Litigation Check</h2>
+            
+            <div class="result">
+                <p><strong>Subject Name:</strong> BUILD KING</p>
+                <p>The following names can be found in our Database. </p>
+                <form>
+                <table class="only1">
                     <tr>
-                        <th>Date</th>
-                        <th>Search type</th>
-                        <th>Subject Name</th>
+                        <th>Name</th>
                     </tr>
                     <tr>
-                        <td>15-04-2020</td>
-                        <td>Defendant</td>
-                        <td>TOY BARK WEN</td>
+                        <td><label for="s1"><input type="radio" id="s1" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING ABLE HOINT VENTURE</label></td>
                     </tr>
                     <tr>
-                        <td>15-04-2020</td>
-                        <td>Defendant</td>
-                        <td>GALAXY ADVANCE LTD</td>
+                        <td><label for="s2"><input type="radio" id="s2" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING ABLE JOINT VENTRE</label></td>
                     </tr>
                     <tr>
-                        <td>15-04-2020</td>
-                        <td>Defendant</td>
-                        <td>GALAXY ADVANCE LTD</td>
+                        <td><label for="s3"><input type="radio" id="s3" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING ABLE JOINT VENTTURE</label></td>
                     </tr>
                     <tr>
-                        <td>15-04-2020</td>
-                        <td>Defendant</td>
-                        <td>GALAXY ADVANCE LTD</td>
-                    </tr>                      
-                </table>           
+                        <td><label for="s4"><input type="radio" id="s4" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING ABLE JOINT VENTURE</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="s5"><input type="radio" id="s5" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING ABLE JOINT VENTURE A FIRM</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="s6"><input type="radio" id="s6" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING CINSTRUCTION LTD</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="s7"><input type="radio" id="s7" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING CIVIL ENGINEERING LTD</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="s8"><input type="radio" id="s8" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING CONSTRUCTION</label></td>
+                    </tr>                                        
+                    <tr>
+                        <td><label for="s9"><input type="radio" id="s9" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING CONSTRUCTION LTD</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="s10"><input type="radio" id="s10" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING CORPORATION LTD</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="s11"><input type="radio" id="s11" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING HOLDINGS LTD</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="s12"><input type="radio" id="s12" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING HYUNDAI JOINT VENTURE</label></td>
+                    </tr>                                        
+                    <tr>
+                        <td><label for="s13"><input type="radio" id="s13" value="BUILD KING ABLE HOINT VENTURE" name="search_text"> BUILD KING INTERIOR & CONSTRUCTION LTD</label></td>
+                    </tr>                                        
+
+                </table>
+            </form>    
+                <p>Too many names match, please be more specific.</p>
+
+                <p>Press <a href="member-civil_litigation_check.html" title="Search again">here</a> to return</p>
+
             </div>
             <hr>
             <div class="notes">
@@ -155,16 +143,12 @@
                     <li>BO = Bankruptcy Order (破產通知), AO = Annulment Order (撤銷破產令通知)</li>
                 </ol>
                 <p>Daily Credit Management Ltd (DCM) does not warrant the completeness of this report or any of the information contained herein. DCM is not liable for any loss, damage or injuiry caused by negligence or other act or failure of DCM in procuring, collecting or communicating any such information. Reliance on any information contained herein shall be solely at the user's risks and shall constitute a waiver of any claim against and a release of DCM. This report is furnished in strict confidence for your exclusive use for legitimate business purposes and for no other purpose.</p>
-            </div>                
+            </div>
+
         </div>
     </main>
 
-    <script>
-        // remove this script when live
-        function temp() {
-            window.location.href="search.html";
-        }
-    </script>
+
 
 </body>
 </html>

@@ -1,7 +1,5 @@
 input {font-size: 1rem;}
-.userInfo {margin: 0 auto 20px auto; color: antiquewhite;}
-.changepass a {color:#ccc}
-.fa {margin-right: 10px;}
+input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8b8d8f;}
 
 @media only screen and (max-width: 1279px) {
     .submenu {display: none;}
@@ -26,26 +24,26 @@ input {font-size: 1rem;}
 @media only screen and (min-width: 1280px) {
     #submenu2 {display: none;}  
     .submenu {
-        list-style-type: none;
-        display: inline-flex;
-        margin: 100px 0 50px -65px;
-    }
+      list-style-type: none;
+      display: inline-flex;
+      margin-top:11rem;
+      margin-left: -65px;
+      
+  }
     .submenu li  {
         background-color: #333;    
         margin:0;
         padding:15px;
-        width: 155px;   
+        width: 155px;
         height: 60px;
         text-align: center;
         border-right: 1px solid #8b8d8f;
         transition: 600ms ease-in-out;
-
     }
 
     .submenu li:nth-child(1) {
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
-
     }
 
     .submenu li:last-child {
@@ -54,30 +52,24 @@ input {font-size: 1rem;}
         border-bottom-right-radius: 10px;
     }
 
-  .submenu li a {
+    .submenu li a {
     display: block;
     padding: 8px 3px;
-    width: 155px;
+    
     font-size: 0.9rem;
     color: white;
     text-decoration: none;
     cursor: pointer;
     transition: color 600ms ease-in-out;
-  }  
-
-
-  .submenu li:hover  {
-    background-color: #aaaaaa;
-    width:200px;
-  
+    }  
+    .submenu li:hover  {
+        background-color: #aaaaaa;
+    
     }  
 
     .submenu li:hover a {
     color:black;
     }
-   .changepass {position: relative; float: right; top:-80px}
-
-   .changepass a:hover {background-color: antiquewhite; color: #000;}
     main {background: #000 url("/images/background17-full.png") no-repeat left top; background-size: cover;}
     .content {position:absolute; top:10rem; left:5rem;width:40rem;z-index: 3; height: unset;}
     h1 {position:absolute; top:10rem; left:37rem;text-align: right;}
@@ -98,7 +90,6 @@ input {font-size: 1rem;}
         padding: 3px 0;
     }
     label,input[type=submit] {font-size: 1.2rem;}
-    input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8b8d8f;}
     input[type=submit]:hover {background-color: white;} 
     label.container {
         display: block;
