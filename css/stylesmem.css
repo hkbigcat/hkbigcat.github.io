@@ -1,6 +1,6 @@
 input {font-size: 1rem;}
 .userInfo {margin: 0 auto 20px auto; color: antiquewhite;}
-.changepass a {color:#ccc}
+.changepass a {color:#caacacd6}
 .fa {margin-right: 10px;}
 .col1 {float: left;width: 30%; }
 .col2 {float: left;}
@@ -167,7 +167,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   .notes > ol {margin-left: -1.8rem;}
   .notes >p {margin-left: 0}
   tr:nth-child(n+2):hover  {background-color: rgba(240,240,240,0.6)}
-  .changepass {position: relative; float: right; top:-80px}
+  .changepass {position: relative; float: right; top:-80px;}
   .changepass a:hover {background-color: antiquewhite; color: #000;}
   p { margin-left: 0;}
 }
