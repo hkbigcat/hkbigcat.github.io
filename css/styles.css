@@ -3,6 +3,8 @@ body {
   color: white;
   overflow-x: hidden;
 }
+.lang  {color:white; font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 300;text-decoration: none;word-spacing: 5px;;}
+#lang {color:#bbb;text-decoration: none}
 nav {background-color: rgba(202, 202, 202, 0.96);
   color: rgb(20, 20, 20); 
   height: 100vh;
@@ -128,6 +130,9 @@ a[href^="tel"] {
     p {text-align: justify;}  
 }
 @media only screen and (min-width: 1280px) {
+  .lang {position: fixed;top:15px; right:230px; z-index: 4;}
+  .lang a:hover {text-decoration: underline;}
+  #lang:hover {color: white;text-decoration: underline;}
   nav {visibility: hidden;}
   .flip-box {
     margin: 20px auto;

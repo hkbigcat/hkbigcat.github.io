@@ -4,8 +4,13 @@ body {
   }
   main, #stockphoto4 {background: #fff; } 
   #hamburger {color:#000;}
+ .lang  {color:black; font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 300;text-decoration: none;word-spacing: 5px;}
+  #lang {color:#bbb}
   @media only screen and (max-width: 1279px) {
     .content {background-color: rgba(255,255,255,0.7);}
+  }
+  @media only screen and (min-width: 1280px) {
+    #lang:hover {color: black;}
   }
  
 
