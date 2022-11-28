@@ -7,6 +7,8 @@ main {
 } 
 #hamburger {color:#000; }
 .flip-box {position:absolute}
+.lang  {color:black; font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 300;text-decoration: none;word-spacing: 5px;}
+#lang {color:#666}
 @media only screen and (max-width: 1279px) {
   main {height:auto;}
   h3 {font-size: 1.5rem; color: #444444; left:0; font-family:'Anybody', cursive ; font-weight:400; border-bottom: 1px solid #444444; width: 80%}
@@ -23,6 +25,7 @@ main {
 
 
 @media only screen and (min-width: 1280px) {
+  #lang:hover {color: black;}
   h3 {font-size: 2rem; border-bottom: 1px solid #444444; width: 80%;}
   .stockphoto{position: relative;}
   .photo {position: unset;}

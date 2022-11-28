@@ -3,7 +3,7 @@ body {
   color: white;
   overflow-x: hidden;
 }
-.lang  {color:white; font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 300;text-decoration: none;word-spacing: 5px;;}
+.lang  {color:white; font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 300;text-decoration: none;word-spacing: 5px;z-index: 4;}
 #lang {color:#bbb;text-decoration: none}
 nav {background-color: rgba(202, 202, 202, 0.96);
   color: rgb(20, 20, 20); 
@@ -98,6 +98,7 @@ a[href^="tel"] {
   text-decoration: underline; 
 }
 @media only screen and (max-width: 1279px) {
+  .lang {position: absolute;top:3px; right:3px; }
   .flip-box {
     margin: 0 auto;
     top: 1rem;
@@ -130,7 +131,7 @@ a[href^="tel"] {
     p {text-align: justify;}  
 }
 @media only screen and (min-width: 1280px) {
-  .lang {position: fixed;top:15px; right:230px; z-index: 4;}
+  .lang {position: fixed;top:15px; right:230px; }
   .lang a:hover {text-decoration: underline;}
   #lang:hover {color: white;text-decoration: underline;}
   nav {visibility: hidden;}
