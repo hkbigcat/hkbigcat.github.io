@@ -57,6 +57,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   table{width:30rem;}
   th, td {text-align: left; font-size: 1.1rem;}
   .changepass {position: relative; }
+  .no_record > table {width:99%}
     }
 @media only screen and (min-width: 1280px) {
   .changepass a {color:#caacacd6}
@@ -87,7 +88,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   }
 
   .submenu li:last-child {
-      border:none;
+      border:none; 
       border-top-right-radius: 10px;
       border-bottom-right-radius: 10px;
   }
