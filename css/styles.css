@@ -131,7 +131,7 @@ a[href^="tel"] {
     p {text-align: justify;}  
 }
 @media only screen and (min-width: 1280px) {
-  .lang {position: fixed;top:12px; right:10%;z-index: 4; }
+  .lang {position: fixed;top:12px; width:50%; left:50%; padding-left:500px; z-index: 4; }
   .lang a:hover {text-decoration: underline;}
   #lang:hover {color: white;text-decoration: underline;}
   nav {visibility: hidden;}
@@ -151,6 +151,7 @@ a[href^="tel"] {
   
 }
 @media only screen and (min-width: 1440px) {
+  .lang {padding-left:600px}
   main {  width:1440px;height:900px;}
   .photo {width:1440px}
   #stockphoto1 {width: 1440px;}
