@@ -12,8 +12,9 @@ document.addEventListener("click" , e=> {
             document.getElementById("mySidenav").style.width = "320px";
             document.getElementById("mySidenav").style.visibility = "visible";
         } else {
-        document.getElementById("mySidenav").style.width = "100%";
-        document.getElementById("mySidenav").style.display = "block";   
+            document.getElementById("mySidenav").style.width = "100%";
+            document.getElementById("mySidenav").style.display = "block"; 
+            document.querySelector("main").style.display="none";  
         }
         document.getElementById("mySidenav").style.opacity = "1";
         document.getElementById("hamburger").style.opacity = "0";
@@ -21,7 +22,10 @@ document.addEventListener("click" , e=> {
         if (w>1279)  {
             document.getElementById("mySidenav").style.width = "0";
             document.getElementById("mySidenav").style.visibility = "hidden";
-        } else document.getElementById("mySidenav").style.display = "none";
+        } else { 
+            document.getElementById("mySidenav").style.display = "none";
+            document.querySelector("main").style.display="block";
+        }
         document.getElementById("hamburger").style.opacity = "1";
         document.getElementById("mySidenav").style.opacity = "0";
         if (sample===null) return;
