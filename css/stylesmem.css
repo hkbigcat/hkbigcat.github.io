@@ -60,6 +60,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   .no_record > table {width:99%}
     }
 @media only screen and (min-width: 1280px) {
+  .lang {position: absolute;}
   .changepass a {color:#caacacd6}
   .guideline a {color:#caacacd6}
     .flip-box {position: absolute;}

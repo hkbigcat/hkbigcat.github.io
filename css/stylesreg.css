@@ -23,6 +23,7 @@ p a, label.container {color:white}
  
 }
 @media only screen and (min-width: 1280px) {
+    .lang {position: absolute;}
     .last {width:33rem; margin: 2rem 20rem}
     main {background: #000 url("/images/background17-full.png") no-repeat left top; background-size: cover;}
     h2 {font-size: 1.4rem; }

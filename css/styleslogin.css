@@ -23,6 +23,7 @@ input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8
     input[type=text], input[type=password] {width:90%}
 }
 @media only screen and (min-width: 1280px) {
+    .lang {position: absolute;}
     #submenu2 {display: none;}  
     .submenu {
       list-style-type: none;

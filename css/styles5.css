@@ -25,6 +25,7 @@ main {
 
 
 @media only screen and (min-width: 1280px) {
+  .lang {position: absolute;}
   #lang:hover {color: black;}
   h3 {font-size: 2rem; border-bottom: 1px solid #444444; width: 80%;}
   .stockphoto{position: relative;}

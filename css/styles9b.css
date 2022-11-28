@@ -9,7 +9,7 @@ body {
     content: counter(section) ")   ";
     white-space: pre;
   }
-@media only screen and (max-width: 1279px) {    
+@media only screen and (max-width: 1279px) {
     .stockphoto2 {height: 100vh; overflow-y: hidden;}
     .news_panel {margin: 0 auto; width:100%; position: relative;}
     .row { border-bottom: 1px solid #aaaaaa; padding: 5px 0 }
@@ -17,6 +17,7 @@ body {
     .desc {margin: 1rem 0.8rem}
    }
 @media only screen and (min-width: 1280px) {
+    .lang {position: absolute;}    
     main {padding-bottom: 1rem;}
     .h1a, p {margin-left: 48px;}
     .content {top:-12px; left: unset; margin: 0 auto; width:100%;}
