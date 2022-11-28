@@ -7,8 +7,7 @@
   main ul {margin-left:-1.8rem; }
 }    
 @media only screen and (min-width: 1280px) {
-  .content {top:0;left:745px;background-color: rgba(0, 0, 0, .20); border-radius: 20px;position: absolute; padding: 330px 0 340px 0;
-  }
+  .content {top:0;left:745px;background-color: rgba(0, 0, 0, .20); border-radius: 20px;position: absolute; padding: 330px 0 340px 0;}
 }
 
 @media only screen and (min-width: 1440px) {
