@@ -144,7 +144,7 @@ a[href^="tel"] {
   main {  width:1280px;height:800px;}
   .photo {width:1280px; height: auto;}
    #stockphoto1 {top:0;z-index: 3; width: 1280px;}
-   #stockphoto2{top:355px; width: 1280px;}
+   #stockphoto2{top:354.2px; width: 1280px;}
    #stockphoto3{top:766px; width: 1280px;}
    #stockphoto4{top:781px; width: 1280px;bottom:0; background-color:black;}
    .content {left:762px; padding:328px 0 230px 0; border-radius: 20px; position: absolute;width:30rem;}
