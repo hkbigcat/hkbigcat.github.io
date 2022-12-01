@@ -7,14 +7,11 @@
   main ul {margin-left:-1.8rem; }
 }    
 @media only screen and (min-width: 1024px) {
-  .content {top:0;left:745px;background-color: rgba(0, 0, 0, .20); border-radius: 20px;position: absolute; padding: 330px 0 70px 0;}
-}
-@media only screen and (min-width: 1280px) {
-  .content {padding-bottom:340px;}
+  .content {top:0;left:745px;background-color: rgba(0, 0, 0, .20); border-radius: 20px;position: absolute; padding: 3l76px 0 20vh 0;}
 }
 
 @media only screen and (min-width: 1440px) {
    main {width:1440px}
-  .content {left:846px;padding: 385px 0 200px 0;}
+  .content {left:846px; }
 
 }
