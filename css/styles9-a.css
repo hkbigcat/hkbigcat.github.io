@@ -24,14 +24,12 @@ main ol {font-family: 'Anybody', 'Noto Sans TC', cursive, sans-serif;}
     #sampleclose {position:relative;top:0;font-size: 0.9rem; text-align: left; margin-right: 3rem;}
 }
 @media only screen and (min-width: 1024px) {
-    .content {padding-bottom: 10vh; }
     .h2a {margin-top: 25px;}
     #sample {
         width:60%;
         margin: 40px auto;
         top:30px;
         left:262px;
-        padding:20px;
         overflow: auto;   
         z-index: 1;
     }  

@@ -38,7 +38,7 @@ main {
 
 }
 @media only screen and (min-width: 1280px) {
-  main {position:relative; margin: 0 auto; }
+  main {position:relative; margin: 0 auto; overflow-x: unset;}
   .logo_panel {position: relative;width:95%; margin:0  auto 10px auto;}
 }    
 @media only screen and (min-width: 1440px) {

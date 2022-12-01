@@ -153,7 +153,7 @@ a[href^="tel"] {
 @media only screen and (min-width: 1280px) {
   .lang {position: fixed; width:50%; left:50%; padding-left:500px; }
    main {  position: relative; right:unset}
-   .content {left:740px;}
+   .content {left: 680px; padding:326px 10px 26vh 46px;}
   
 }
 @media only screen and (min-width: 1440px) {
@@ -164,7 +164,7 @@ a[href^="tel"] {
   #stockphoto2{top:400px;width: 1440px;}
   #stockphoto3{top:878px;width: 1440px;}
   #stockphoto4{top:898px; bottom:0; width: 1440px;}
-  .content {left: 820px; padding:373px 10px 20vh 10px;}
+  .content {left: 780px; padding:373px 10px 26vh 46px;} 
 }
 @media print{
   body{
