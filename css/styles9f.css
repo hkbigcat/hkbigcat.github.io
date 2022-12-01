@@ -1,7 +1,11 @@
 .center {display: block; margin-left: 4.25rem;} 
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1023px) {
     .stockphoto2 {height: 100vh; overflow-y: hidden;}
    }
+@media only screen and (min-width: 1024px) {
+    #hamburger {color:black}
+    .content {padding-bottom: 250px;}
+}   
 @media only screen and (min-width: 1280px) {
     #hamburger {color:black}
     .content {padding-bottom: 250px;}

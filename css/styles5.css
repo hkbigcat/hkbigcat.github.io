@@ -6,10 +6,10 @@ main {
   background: #fff;
 } 
 #hamburger {color:#000; }
-.flip-box {position:absolute}
+.flip-box {position:absolute; top:9px}
 .lang  {color:black; font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 300;text-decoration: none;word-spacing: 5px;}
 #lang {color:#666}
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1023px) {
   main {height:auto;}
   h3 {font-size: 1.5rem; color: #444444; left:0; font-family:'Anybody', cursive ; font-weight:400; border-bottom: 1px solid #444444; width: 80%}
     .content {
@@ -23,10 +23,26 @@ main {
     .logos > div {display:inline-block; width: 138px; height: 120px; padding: 10px; }
 }
 
+@media only screen and (min-width: 1024px) {
+  .lang {position: absolute; right:20px}
+  #lang:hover {color: black;}
+  #hamburger {position: relative;}
+  main {position: absolute; top:-60px}
+  h3 {font-size: 2rem; border-bottom: 1px solid #444444; width: 80%;}
+  .stockphoto{position: relative;}
+  .photo {position: unset;}
+  .content {top:0;left:758px; padding-top:280px}
+  .logo_panel {position: relative;width:95%; margin-left: calc(1311px - 100vw)}
+  .logos {width:95%;;margin:0 auto}
+  .logos > div {display:inline-block; width: 220px; height: 120px; padding: 10px; }
+
+  }
+
 
 @media only screen and (min-width: 1280px) {
   .lang {position: absolute;}
   #lang:hover {color: black;}
+  main {position: relative;margin: 0 auto; top:0; }
   h3 {font-size: 2rem; border-bottom: 1px solid #444444; width: 80%;}
   .stockphoto{position: relative;}
   .photo {position: unset;}
