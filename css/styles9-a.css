@@ -19,23 +19,20 @@ main ol {font-family: 'Anybody', 'Noto Sans TC', cursive, sans-serif;}
     position:relative;
     cursor: pointer;
   }
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1023px) {
     #sample {top:140px; left:0; right:0; margin: 0 auto; width: 650px; }
     #sampleclose {position:relative;top:0;font-size: 0.9rem; text-align: left; margin-right: 3rem;}
 }
-@media only screen and (min-width: 1280px) {
-    .content {padding-bottom: 10px; }
+@media only screen and (min-width: 1024px) {
     .h2a {margin-top: 25px;}
     #sample {
         width:60%;
         margin: 40px auto;
         top:30px;
         left:262px;
-        padding:20px;
         overflow: auto;   
         z-index: 1;
     }  
-    #sampleclose {text-align:right;position: relative; top:0; font-size:0.9rem} 
     .button{transition: 600ms ease-in-out;}
     .button:hover {background-color:antiquewhite; color:black}
 }

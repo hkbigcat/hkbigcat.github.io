@@ -1,35 +1,40 @@
 input {font-size: 1rem;}
 input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8b8d8f;}
 
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1023px) {
     .submenu {display: none;}
-    .col1 {float: left;width: 30%; }
-    .col2 {width: 70%;}
+    .col1 {float: left;width: 35%; }
+    .col2 {float: left;width: 65%;}
     .stockphoto2 {width:100%; height:100vh; overflow: hidden; margin:0; padding:0}
     .photo2 {width: unset;height: unset;}
-    h1 {position:relative; top:0; text-align: right} 
+    h1 {position:relative; top:0; text-align: right; margin-right: 20px;} 
     label, input[type=text], input[type=password] {
         font-family: 'Anybody', cursive;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 1rem;
-        margin: 10px auto;
-        border-radius: 22px;
-        padding: 4px 10px;    
+    }
+    input[type=text], input[type=password] {
+        border-radius: 18px;
+        margin-bottom:25px;
+        padding: 0 5px;    
     }
     .content {margin: 0 auto; top:5rem}
     form {margin-top: 2rem;}
     select {width:90%; font-size: 1rem; padding:10px;}
     input[type=submit] {border-radius: 15px; padding: 2px 16px; background-color: #aaaaaa;font-size: 1rem;margin-top: 20px;}  
     input[type=text], input[type=password] {width:90%}
+    p.userInfo {margin-top:0; color: antiquewhite;}
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1024px) {
+    #hamburger, .flip-box {position: absolute;}
     .lang {position: absolute;}
+    main {height:800px}
     #submenu2 {display: none;}  
     .submenu {
       list-style-type: none;
       display: inline-flex;
       margin-top:11rem;
-      margin-left: -65px;
+      margin-left: 185px;
       
   }
     .submenu li  {
@@ -40,7 +45,7 @@ input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8
         height: 60px;
         text-align: center;
         border-right: 1px solid #8b8d8f;
-        transition: 600ms ease-in-out;
+        transition: color 300ms ease-in-out;
     }
 
     .submenu li:nth-child(1) {
@@ -62,7 +67,7 @@ input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8
     color: white;
     text-decoration: none;
     cursor: pointer;
-    transition: color 600ms ease-in-out;
+    transition: color 300ms ease-in-out;
     }  
     .submenu li:hover  {
         background-color: #aaaaaa;
@@ -84,7 +89,7 @@ input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8
         display: table;
         clear: both;
     }
-    form { padding-bottom: 50px;}
+    form { padding-bottom: 50px;left: 16rem; top:2rem; position: relative;}
     input:focus {background-color:white}
     label, input {
         font-family: 'Anybody', cursive;
@@ -118,10 +123,17 @@ input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8
     button {font-size:1rem; padding:10px; position: relative; margin-bottom: 50px;}
     button:focus {background-color: antiquewhite;color: #000; }
 }
+@media only screen and (min-width: 1280px) {
+    h1 {top:10rem; left:37rem;} 
+    form {left:0; top:0}
+    input:focus {background-color:white}
+    .submenu {margin-left: -65px;}
+}
 
 @media only screen and (min-width: 1440px) {
     h1 {top:13rem; left:43rem} 
     .content {bottom:10rem; left:5rem;}
     input:focus {background-color:white}
+    form {top: 3rem; left:0}
 }
 

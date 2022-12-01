@@ -20,7 +20,7 @@ p strong {color:antiquewhite; font-weight: 400;}
 h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
 
 
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1023px) {
   #searchfrm {position: relative; height: 250px ;}
   .notes {padding-bottom: 2rem; }
   .col2 {width:70%;}
@@ -59,7 +59,8 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   .changepass {position: relative; }
   .no_record > table {width:99%}
     }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1024px) {
+  #hamburger {position: absolute;}
   .lang {position: absolute;}
   .changepass a {color:#caacacd6}
   .guideline a {color:#caacacd6}
@@ -68,7 +69,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
     .submenu {
       list-style-type: none;
       display: inline-flex;
-      margin-top:11rem;
+      margin-top:13rem;
       margin-left: -65px;   
   }
   .submenu li  {
@@ -107,7 +108,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
 }
   .h1a {font-size: 4rem}
   h3 {font-size: 2.2rem; margin-top:90px;}
-  .content {top:0;width:55rem;padding-top:0; position: relative; margin: 0 auto; left:unset; padding-bottom: 20px;}
+  .content {top:0;width:40rem;padding-top:0; position: relative; margin: 0 auto; left:-11px; padding-bottom: 20px;}
   h1 {position:relative; top:12rem; right:-183px;text-align: right;}
     .symbol {position: absolute;top:130px;right:65px; width:189px; height: auto;}
   .formarea {position: absolute;top:400px;left:100px;}
@@ -151,7 +152,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   .result {position: relative; margin: 22px auto}  
   table {position:relative;width:100%; margin-bottom: 50px;}
   table th, table td {font-family: 'Anybody', cursive; text-align: left;padding: 5px 30px;}   
-    .guideline {float:right; margin-right: 0; margin-top:-68px; }
+  .guideline {margin-right: 0; margin-top:-34px; }
   p a:hover{background-color: aliceblue;color: black;}
   h2 {margin-left:-5px}
   .notes {margin-top: 2rem; }
@@ -162,6 +163,15 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   .changepass a:hover {background-color: antiquewhite; color: #000;}
   p { margin-left: 0;}
 }
+
+@media only screen and (min-width: 1280px) {
+ .content {width:55rem;}  
+ .submenu {
+   margin-top:11rem;
+ }
+ .guideline {float:right; margin-right: 0; margin-top:-61px; }
+}
+
 @media only screen and (min-width: 1440px) {
   .symbol {position: absolute; width:170px; height: auto; top:145px;right:42px;}
   button {font-size:1rem; padding:10px; position: relative; margin-bottom: 50px;}

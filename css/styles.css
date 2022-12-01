@@ -76,7 +76,7 @@ nav a:hover {
 }
 main {
   margin: 0 auto;
-  position:relative;
+  
 }
 .stockphoto {position: fixed}
 .stockphoto2 {display:none;width:80%;text-align: center;}
@@ -97,7 +97,7 @@ a[href^="tel"] {
   color: inherit; 
   text-decoration: underline; 
 }
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1023px) {
   .lang {position: absolute;top:8px; right:3px; z-index: 3;}
   .flip-box {
     margin: 0 auto;
@@ -130,8 +130,8 @@ a[href^="tel"] {
     #hamburger {position: relative;}
     p {text-align: justify;}  
 }
-@media only screen and (min-width: 1280px) {
-  .lang {position: fixed;top:12px; width:50%; left:50%; padding-left:500px; z-index: 4; }
+@media only screen and (min-width: 1024px) {
+  .lang {position: fixed;top:12px; right:20px; z-index: 4; }
   .lang a:hover {text-decoration: underline;}
   #lang:hover {color: white;text-decoration: underline;}
   nav {visibility: hidden;}
@@ -141,13 +141,19 @@ a[href^="tel"] {
   }
   .flip-box, #hamburger{position:fixed;z-index: 4}
 
-  main {  width:1280px;height:800px;}
+  main {  position:absolute; right:0; width:1280px}
   .photo {width:1280px; height: auto;}
    #stockphoto1 {top:0;z-index: 3; width: 1280px;}
    #stockphoto2{top:354.2px; width: 1280px;}
    #stockphoto3{top:766px; width: 1280px;}
    #stockphoto4{top:781px; width: 1280px;bottom:0; background-color:black;}
-   .content {left:762px; padding:328px 0 230px 0; border-radius: 20px; position: absolute;width:30rem;}
+   .content {left:730px; padding:328px 0 20vh 0; border-radius: 20px; position: absolute;width:30rem;}
+  
+}
+@media only screen and (min-width: 1280px) {
+  .lang {position: fixed; width:50%; left:50%; padding-left:500px; }
+   main {  position: relative; right:unset}
+   .content {left: 680px; padding:326px 10px 26vh 46px;}
   
 }
 @media only screen and (min-width: 1440px) {
@@ -158,7 +164,7 @@ a[href^="tel"] {
   #stockphoto2{top:400px;width: 1440px;}
   #stockphoto3{top:878px;width: 1440px;}
   #stockphoto4{top:898px; bottom:0; width: 1440px;}
-  .content {left: 820px; padding:373px 10px 200px 10px;}
+  .content {left: 780px; padding:373px 10px 26vh 46px;} 
 }
 @media print{
   body{

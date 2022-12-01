@@ -4,7 +4,7 @@ input[type=submit]:hover, input[type=reset]:hover {background-color: white; colo
 select {color: black; background-color: #cccccc; font-size: 1rem;}
 input:focus {background-color:white}
 p a, label.container {color:white}   
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1023px) {
     .last {width:20rem; margin: 2rem 0}
     h1 {position: absolute;top:10rem; width:90vw; left:0; right:0; margin: 0 auto;}    
     .h1a {font-size: 2rem;}
@@ -22,10 +22,10 @@ p a, label.container {color:white}
     blockquote {margin-left: 0;}
  
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1024px) {
     .lang {position: absolute;}
     .last {width:33rem; margin: 2rem 20rem}
-    main {background: #000 url("/images/background17-full.png") no-repeat left top; background-size: cover;}
+    main {background: #000 url("/images/background17-full.png") no-repeat left top; background-size: cover; height: 800px;}
     h2 {font-size: 1.4rem; }
     h3{font-size: 1.3rem; }
     form {
@@ -35,7 +35,7 @@ p a, label.container {color:white}
         width: 100%;
         margin-top: 2rem;
     }
-    .content {position:absolute;left:5rem;width:100%; z-index: 3; padding-top: 545px;}
+    .content {position:absolute;left: calc(1317px - 100vw);padding:0; width:70%; z-index: 3; padding-top: 545px;}
     h1 {position:absolute; top:19rem; left:41rem;text-align: right;}
     label{margin-top: 4px;}
     .col1 {float: left;width: 25%;}
@@ -77,6 +77,10 @@ p a, label.container {color:white}
     input.smallinput {font-size: 0.9rem; background-color: white;border-radius: 0;width:3rem}
     p, h2 {margin-left: 0;}
       
+}
+@media only screen and (min-width: 1280px) {
+    .content {left:100px;width:100%;}
+    
 }
 @media only screen and (min-width: 1440px) {
     h1 {left:48rem;top:24rem}

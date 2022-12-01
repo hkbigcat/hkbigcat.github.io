@@ -8,7 +8,7 @@ document.addEventListener("click" , e=> {
     if (isButton) return;
     if (!isHamburger && isNav!= null && isCloseBtn == null )  return; 
     if (isHamburger) {
-        if (w>1279)  {  
+        if (w>=1024)  {  
             document.getElementById("mySidenav").style.width = "320px";
             document.getElementById("mySidenav").style.visibility = "visible";
         } else {
@@ -19,7 +19,7 @@ document.addEventListener("click" , e=> {
         document.getElementById("mySidenav").style.opacity = "1";
         document.getElementById("hamburger").style.opacity = "0";
     } else {
-        if (w>1279)  {
+        if (w>=1024)  {
             document.getElementById("mySidenav").style.width = "0";
             document.getElementById("mySidenav").style.visibility = "hidden";
         } else { 
