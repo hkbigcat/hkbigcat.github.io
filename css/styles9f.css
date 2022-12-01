@@ -4,19 +4,17 @@
    }
 @media only screen and (min-width: 1024px) {
     #hamburger {color:black}
-    .content {padding-bottom: 20px;}
+    .content {padding-bottom: 15vh;}
 }   
 @media only screen and (min-width: 1280px) {
     #hamburger {color:black}
-    .content {padding-bottom: 250px;}
-}
+ 
 @media only screen and (min-width: 1370px) {
     #hamburger {color:white}
 }
 @media only screen and (min-width: 1440px) {
     h1{margin-bottom: 20px;}
     .h2a {margin-top: 25px;}
-    .content {padding-bottom: 150px;}
 } 
 @media only screen and (min-width: 1530px) {
     #hamburger {color:white}

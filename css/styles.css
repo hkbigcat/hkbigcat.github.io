@@ -147,13 +147,13 @@ a[href^="tel"] {
    #stockphoto2{top:354.2px; width: 1280px;}
    #stockphoto3{top:766px; width: 1280px;}
    #stockphoto4{top:781px; width: 1280px;bottom:0; background-color:black;}
-   .content {left:730px; padding:328px 0 50px 0; border-radius: 20px; position: absolute;width:30rem;}
+   .content {left:730px; padding:328px 0 20vh 0; border-radius: 20px; position: absolute;width:30rem;}
   
 }
 @media only screen and (min-width: 1280px) {
   .lang {position: fixed; width:50%; left:50%; padding-left:500px; }
    main {  position: relative; right:unset}
-   .content {left:740px; padding:328px 0 230px 0;}
+   .content {left:740px;}
   
 }
 @media only screen and (min-width: 1440px) {
@@ -164,7 +164,7 @@ a[href^="tel"] {
   #stockphoto2{top:400px;width: 1440px;}
   #stockphoto3{top:878px;width: 1440px;}
   #stockphoto4{top:898px; bottom:0; width: 1440px;}
-  .content {left: 820px; padding:373px 10px 200px 10px;}
+  .content {left: 820px; padding:373px 10px 20vh 10px;}
 }
 @media print{
   body{

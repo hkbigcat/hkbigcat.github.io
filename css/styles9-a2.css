@@ -27,7 +27,7 @@ main ol {font-family: 'Anybody', 'Noto Sans TC', cursive, sans-serif;}
     #stockphoto2{top:354px}
     #stockphoto3{top:781px;z-index: 3; }
     #stockphoto4{top:798px; bottom:0; left:0; background-color:black;width:100%;z-index: 4;}
-    .content {top:0; left:744px; padding:380px 10px 120px 10px;background-color: rgba(255, 255, 255, .10); border-radius: 25px;position: absolute;
+    .content {top:0; left:744px; padding:380px 10px 15vh 10px;background-color: rgba(255, 255, 255, .10); border-radius: 25px;position: absolute;
                 line-height:1.5rem;color: white;
     }
     .h2a {margin-top: 25px;}
@@ -54,7 +54,7 @@ main ol {font-family: 'Anybody', 'Noto Sans TC', cursive, sans-serif;}
     #stockphoto2{top:399px}
     #stockphoto3{top:874px;z-index: 3; }
     #stockphoto4{top:883px; bottom:0; left:0;}
-    .content {left:848px; padding:414px 10px 120px 10px;
+    .content {left:848px; padding:414px 10px 15vh 10px;
     }    
     #sample {
         width:70%;
