@@ -151,23 +151,9 @@ a[href^="tel"] {
   
 }
 @media only screen and (min-width: 1280px) {
-  .lang {position: fixed;top:12px; width:50%; left:50%; padding-left:500px; z-index: 4; }
-  .lang a:hover {text-decoration: underline;}
-  #lang:hover {color: white;text-decoration: underline;}
-  nav {visibility: hidden;}
-  .flip-box {
-    margin: 20px auto;
-    position: fixed;
-  }
-  .flip-box, #hamburger{position:fixed;z-index: 4}
-
-  main {  position: relative; right:unset}
-  .photo {width:1280px; height: auto;}
-   #stockphoto1 {top:0;z-index: 3; width: 1280px;}
-   #stockphoto2{top:354.2px; width: 1280px;}
-   #stockphoto3{top:766px; width: 1280px;}
-   #stockphoto4{top:781px; width: 1280px;bottom:0; background-color:black;}
-   .content {left:740px; padding:328px 0 230px 0; border-radius: 20px; position: absolute;width:30rem;}
+  .lang {position: fixed; width:50%; left:50%; padding-left:500px; }
+   main {  position: relative; right:unset}
+   .content {left:740px; padding:328px 0 230px 0;}
   
 }
 @media only screen and (min-width: 1440px) {

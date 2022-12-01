@@ -4,7 +4,7 @@
    }
 @media only screen and (min-width: 1024px) {
     #hamburger {color:black}
-    .content {padding-bottom: 250px;}
+    .content {padding-bottom: 20px;}
 }   
 @media only screen and (min-width: 1280px) {
     #hamburger {color:black}

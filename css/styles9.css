@@ -5,15 +5,11 @@
     #stockphoto2{top:354px}
     #stockphoto3{top:782px;z-index: 3; }
     #stockphoto4{top:800px; bottom:0; left:0; background-color:black;width:100%;}
-    .content {top:0; left:716px; padding:330px 10px 300px 10px;border-radius: 20px; position: absolute;
+    .content {top:0; left:716px; padding:330px 10px 140px 10px;border-radius: 20px; position: absolute;
     }
 }
 @media only screen and (min-width: 1280px) {
-    #stockphoto2{top:354px}
-    #stockphoto3{top:782px;z-index: 3; }
-    #stockphoto4{top:800px; bottom:0; left:0; background-color:black;width:100%;}
-    .content {top:0; left:716px; padding:330px 10px 300px 10px;border-radius: 20px; position: absolute;
-    }
+    .content {padding-bottom:300px;    }
 }
 @media only screen and (min-width: 1440px) {
     #stockphoto2{top:399px}

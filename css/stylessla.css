@@ -1,14 +1,16 @@
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1023px) {
     h1 {position: absolute;top:112px; left:48px}
     .content {margin-top:2rem}
     label,input[type=submit] {font-size: 1rem; ;}
     input[type=submit] {border-radius: 15px; padding: 2px 16px; background-color: #8b8d8f;}
     form {width: 142px; margin: 30px auto;}
 }
-@media only screen and (min-width: 1279px) {
-    main {background: #000 url("/images/background17-full.png") no-repeat left top;background-size: cover;}
-    .content {position:absolute;top:323px;left:100px;width:80%;}
-    h1 {position:absolute; top:19rem; left:41rem;text-align: right;}
+@media only screen and (min-width: 1024px) {
+    #hamburger {position: absolute;}
+    main {background: #000 url("/images/background17-full.png") no-repeat left top;background-size: cover;height:800px}
+    .content {position:absolute;top:625px; width:70%; padding:0; margin-left: calc(550px - 100vw)}
+    .content > p {text-align: justify; }
+    h1 {position:absolute; top:19rem; left:657px;text-align: right;}
    form {width: 142px; margin: 30px auto;}
     label{margin-top: 4px;}
     .col1 {float: left;width: 25%;}
@@ -35,9 +37,13 @@
         margin-right: 13px;
     }  
 }
+@media only screen and (min-width: 1280px) {
+    .content {width:90%;top:580px; left:0; margin-left:0 }
+    h1 {left: 570px}
+}
 @media only screen and (min-width: 1440px) {
     .lang {position: absolute;}
-    h1 {top:22rem; left:47rem}
+    h1 {top:22rem; }
 }
 
 

@@ -23,6 +23,7 @@ input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8
     input[type=text], input[type=password] {width:90%}
 }
 @media only screen and (min-width: 1024px) {
+    #hamburger, .flip-box {position: absolute;}
     .lang {position: absolute;}
     main {height:800px}
     #submenu2 {display: none;}  
@@ -30,7 +31,7 @@ input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8
       list-style-type: none;
       display: inline-flex;
       margin-top:11rem;
-      margin-left: -65px;
+      margin-left: 185px;
       
   }
     .submenu li  {
@@ -85,7 +86,7 @@ input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8
         display: table;
         clear: both;
     }
-    form { padding-bottom: 50px;left: 12rem; top:10rem; position: relative;}
+    form { padding-bottom: 50px;left: 16rem; top:2rem; position: relative;}
     input:focus {background-color:white}
     label, input {
         font-family: 'Anybody', cursive;
@@ -123,6 +124,8 @@ input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8
     h1 {top:10rem; left:37rem;} 
     form {left:0}
     input:focus {background-color:white}
+    .submenu {margin-left: -65px;}
+    form {top:10rem; left:12rem}
 }
 
 @media only screen and (min-width: 1440px) {
