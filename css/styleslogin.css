@@ -89,7 +89,7 @@ input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8
         display: table;
         clear: both;
     }
-    form { padding-bottom: 50px;left: 16rem; top:2rem; position: relative;}
+    form { padding-bottom: 50px;left: 12rem; top:2rem; position: relative;}
     input:focus {background-color:white}
     label, input {
         font-family: 'Anybody', cursive;
