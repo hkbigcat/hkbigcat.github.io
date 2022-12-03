@@ -36,7 +36,7 @@ p > a:hover {text-decoration: underline;}
         margin: 40px auto;
         top:30px;
         left:330px;
-        padding:20px 20px 20vh 20px;
+        padding:20px 20px 0 20px;
     }
     #sample > p {margin-left: 15px}
     #sample > p:has(img)  {border: solid 1px #666666;width:650px; padding:10px}
@@ -54,7 +54,7 @@ p > a:hover {text-decoration: underline;}
     #stockphoto2{top:399px}
     #stockphoto3{top:874px;z-index: 3; }
     #stockphoto4{top:883px; bottom:0; left:0;}
-    .content {left:848px; padding:414px 10px 15vh 10px;
+    .content {left:848px; padding:414px 10px 0 10px;
     }    
     #sample {
         width:70%;

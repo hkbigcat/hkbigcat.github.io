@@ -169,7 +169,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
  .submenu {
    margin-top:11rem;
  }
- .guideline {float:right; margin-right: 0; margin-top:-61px; }
+ .guideline {float:right; margin-right: 0; margin-top:-25px; }
 }
 
 @media only screen and (min-width: 1440px) {
