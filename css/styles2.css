@@ -4,6 +4,7 @@ body {
   }
   main, #stockphoto4 {background: #fff; } 
   #hamburger {color:#000;}
+  .h2a {background-color: #fff;}
  .lang  {color:black; font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 300;text-decoration: none;word-spacing: 5px;}
   #lang {color:#bbb}
   #lang:hover {color: black;}
