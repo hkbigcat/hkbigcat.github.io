@@ -5,6 +5,7 @@ document.addEventListener("click" , e=> {
     const isNav = e.target.closest("[data-nav]");
     const w = window.innerWidth;
     const sample=document.getElementById("sample");
+    const isSample=e.target.closest("#sample");
     if (isButton) return;
     if (!isHamburger && isNav!= null && isCloseBtn == null )  return; 
     if (isHamburger) {
@@ -28,7 +29,7 @@ document.addEventListener("click" , e=> {
         }
         document.getElementById("hamburger").style.opacity = "1";
         document.getElementById("mySidenav").style.opacity = "0";
-        if (sample===null) return;
+        if (sample===null || isSample) return;
         sample.style.opacity=0;
         sample.style.display="close";
         sample.style.display="none";
