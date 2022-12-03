@@ -1,11 +1,10 @@
-#sample {margin:0;position: absolute;padding:15px; z-index: 1;background-color: white;opacity: 0; transition: opacity 0.5s ease-in-out; top:140px;display:none}
+#sample {margin:0;position: absolute;padding:15px; background-color: white; top:140px; display: none;}
 #sample p, #sample, h3 {color:black}
 #sampleclose {color:black;}
 h3 {font-size: 1rem;color:darkgoldenrod}
 .fa, .fa > a {color:coral; font-size: 1.2rem; margin-right: 10px;}
 p > a {color:white; font-size: 1.2rem; }
 p > a:hover {text-decoration: underline;}
-main ol {font-family: 'Anybody', 'Noto Sans TC', cursive, sans-serif;}
 .button {
     background-color:darkslategrey;    
     border: none;
@@ -20,7 +19,8 @@ main ol {font-family: 'Anybody', 'Noto Sans TC', cursive, sans-serif;}
     cursor: pointer;
   }
 @media only screen and (max-width: 1023px) {
-    #sample {top:140px; left:0; right:0; margin: 0 auto; width: 650px; }
+    #sample {top:140px; left:0; right:0; margin: 0 auto; width: 92%; }
+    #sample > p > img {width:100%}
     #sampleclose {position:relative;top:0;font-size: 0.9rem; text-align: left; margin-right: 3rem;}
 }
 @media only screen and (min-width: 1024px) {
@@ -37,10 +37,10 @@ main ol {font-family: 'Anybody', 'Noto Sans TC', cursive, sans-serif;}
         top:30px;
         left:330px;
         padding:20px 20px 20vh 20px;
-        overflow: auto;   
-        z-index: 1;
     }
     #sample > p {margin-left: 15px}
+    #sample > p:has(img)  {border: solid 1px #666666;width:650px; padding:10px}
+    #sample > p > img   {max-width: 630px;}
     #sampleclose {text-align:right;position: relative; top:0; font-size:0.9rem} 
     .button{transition: 600ms ease-in-out;}
     .button:hover {background-color:antiquewhite; color:black}

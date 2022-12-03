@@ -30,10 +30,10 @@ document.addEventListener("click" , e=> {
         document.getElementById("hamburger").style.opacity = "1";
         document.getElementById("mySidenav").style.opacity = "0";
         if (sample===null || isSample) return;
-        sample.style.opacity=0;
         sample.style.display="close";
         sample.style.display="none";
-        sample.style.zIndex=1;            
+        sample.style.zIndex=1;
+        document.querySelector(".content").style.display="block";           
     }
 })
 
