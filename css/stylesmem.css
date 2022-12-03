@@ -16,7 +16,7 @@ td {min-width: 8px;}
 .fa {margin-right: 5px;}
 .guideline a {font-size: 0.9rem;}
 .notes > * {font-size: 0.9em; color: #aaaaaa;}
-p strong {color:antiquewhite; font-weight: 400;}
+p strong {color:antiquewhite; }
 h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
 
 
@@ -63,7 +63,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   #hamburger {position: absolute;}
   .lang {position: absolute;}
   .changepass a {color:#caacacd6}
-  .guideline a {color:#caacacd6}
+  .guideline a {color:#d9cdcdd6}
     .flip-box {position: absolute;}
     #submenu2 {display: none;}  
     .submenu {
