@@ -1,3 +1,10 @@
+adjustbottom = () => {
+const sp = document.querySelector("#stockphoto4");
+if (sp==null) return;
+const p4 = document.getElementById("stockphoto4");
+const contentHeight = p4.offsetHeight + 80;
+document.querySelector(".content").style.paddingBottom=contentHeight+"px"
+}
 document.addEventListener("click" , e=> {
     const isHamburger = e.target.matches("#hamburger");
     const isButton = e.target.matches("button");
@@ -36,6 +43,7 @@ document.addEventListener("click" , e=> {
         document.querySelector(".content").style.display="block";           
     }
 })
-
-
-    
+adjustbottom();
+window.addEventListener('resize', function(event){
+    adjustbottom();
+});        
