@@ -120,6 +120,7 @@ input[type=submit] {border-radius: 10px; padding: 5px 16px; margin-right:20px;ba
         width:10rem;
     }
     h2, p {margin-left:0; margin-bottom:2rem; ;}
+    .h2acn {width:250px; margin-top :6px; margin-left:62px;}
     button {font-size:1rem; padding:10px; position: relative; margin-bottom: 50px;}
     button:focus {background-color: antiquewhite;color: #000; }
 }
