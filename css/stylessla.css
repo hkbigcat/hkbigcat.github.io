@@ -39,11 +39,11 @@
 }
 @media only screen and (min-width: 1280px) {
     .content {width:90%;top:580px; left:0; margin-left:0 }
-    h1 {left: 570px}
+    h1 {left: 671px}
 }
 @media only screen and (min-width: 1440px) {
     .lang {position: absolute;}
-    h1 {top:22rem; }
+    h1 {top:22rem;left: 768px }
 }
 
 
