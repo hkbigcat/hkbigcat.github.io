@@ -45,7 +45,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
   .container {display: block; margin-bottom: 0.5rem;}
   .row {margin: 10px; }
   
-  input[type=submit], input[type=button]  {border-radius: 12px; padding: 2px 8px; background-color: #8b8d8f; color:white; margin: 10px auto; font-size: 1rem;} 
+  input[type=submit], input[type=button]  {border-radius: 10px; padding: 2px 8px; background-color: #8b8d8f; color:white; margin: 10px auto; font-size: 1rem;} 
   input, label, select {font-size: 0.9rem;}
   select {width:90%; }
   input[type=text] {width:90%; margin-bottom: 10px;}
@@ -117,7 +117,7 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
      font-weight: 300;
   }
   label,input[type=submit], input[type=button] {font-size: 1.2rem;} 
-  input[type=submit], input[type=button]   {border-radius: 15px; padding: 2px 16px; color:white; background-color: #8b8d8f; margin: 20px 10px;}
+  input[type=submit], input[type=button]   {border-radius: 10px; padding: 2px 16px; color:white; background-color: #8b8d8f; margin: 20px 10px;}
   input[type=submit]:hover, input[type=button]:hover {background-color: #fff; color:black}
   input[type=text] {font-size: 1rem; }
   label.container {

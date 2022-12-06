@@ -1,5 +1,5 @@
 input {font-size: 1rem;}
-input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8b8d8f;}
+input[type=submit] {border-radius: 10px; padding: 5px 16px; margin-right:20px;background-color: #8b8d8f;}
 
 @media only screen and (max-width: 1023px) {
     .submenu {display: none;}
@@ -21,7 +21,7 @@ input[type=submit] {border-radius: 15px; padding: 5px 16px; background-color: #8
     .content {margin: 0 auto; top:5rem}
     form {margin-top: 2rem;}
     select {width:90%; font-size: 1rem; padding:10px;}
-    input[type=submit] {border-radius: 15px; padding: 2px 16px; background-color: #aaaaaa;font-size: 1rem;margin-top: 20px;}  
+    input[type=submit] {padding: 2px 16px; background-color: #aaaaaa;font-size: 1rem;margin-top: 20px;}  
     input[type=text], input[type=password] {width:90%}
     p.userInfo {margin-top:0; color: antiquewhite;}
 }
