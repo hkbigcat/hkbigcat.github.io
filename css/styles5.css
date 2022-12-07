@@ -28,11 +28,11 @@ main {
   #lang:hover {color: black;}
   #hamburger {position: relative;}
   main {position: absolute; top:-60px;overflow-x: hidden;}
-  .h2cn {margin-top:102px;}
+  .h2cn {margin-top:-42px;}
   h3 {font-size: 2rem; border-bottom: 1px solid #444444; width: 80%;}
   .stockphoto{position: relative;}
   .photo {position: unset;}
-  .content {top:0;left:758px; padding-top:280px}
+  .content {top:0;left:697px; padding-top:280px}
   .logo_panel {position: relative;width:95%; margin-left: calc(1311px - 100vw)}
   .logos {width:95%;;margin:0 auto}
   .logos > div {display:inline-block; width: 220px; height: 120px; padding: 10px; }
@@ -43,7 +43,7 @@ main {
   .logo_panel {position: relative;width:95%; margin:0  auto 10px auto;}
 }    
 @media only screen and (min-width: 1440px) {
-  .content {top:73px;left:843px;}
+  .content {top:73px;left:780px;}
   }
 
   @media print{
