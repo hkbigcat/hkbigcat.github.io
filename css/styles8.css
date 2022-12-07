@@ -11,8 +11,13 @@ body {color:black;}
   #stockphoto4{top:801px; bottom:0; }
   .content {background-color: rgba(255, 255, 255, .70); border-radius: 25px; padding-left: 5px; padding-right: 5px; }
 }
+@media only screen and (min-width: 1280px) {
+  .content {left: 727px;}
+}
+
 @media only screen and (min-width: 1440px) {
   #stockphoto2{top:349px}
   #stockphoto3{top:876px;}
   #stockphoto4{top:896px;}
+  .content {left: 815px;}
 }

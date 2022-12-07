@@ -19,6 +19,8 @@ body {
 @media only screen and (min-width: 1024px) {
     .lang {position: absolute;}    
     .h1a, p {margin-left: 48px;}
+    .h1acn {margin-left:0}
+    .h2cn {margin-left:48px}
     .content {padding-left: 0; left:0; width:70%;}
     section {margin-left:763px; width:485px;background-color: rgba(0,0,0,0.2); position: relative; height:448px;}
     .news_panel {margin-left: calc(1311px - 100vw); width:100%}
