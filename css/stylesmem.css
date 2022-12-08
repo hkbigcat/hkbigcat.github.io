@@ -18,7 +18,7 @@ td {min-width: 8px;}
 .notes > * {font-size: 0.9em; color: #aaaaaa;}
 p strong {color:antiquewhite; }
 h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
-
+hr {clear: both;}
 
 @media only screen and (max-width: 1023px) {
   #searchfrm {position: relative; height: 250px ;}
@@ -176,8 +176,12 @@ h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
 @media only screen and (min-width: 1440px) {
   .symbol {position: absolute; width:170px; height: auto; top:145px;right:42px;}
   button {font-size:1rem; padding:10px; position: relative; margin-bottom: 50px;}
-  button:focus {background-color: antiquewhite;color: #000; }
-   
+  button:focus {background-color: antiquewhite;color: #000; }  
 }
-
+@media print{
+  #submenu2 {display: none;}
+  #searchfrm {margin: 30px;}
+  .row  {margin:30px}
+  input[type=submit], input[type=button] {margin-bottom: 20px;}
+}
 
