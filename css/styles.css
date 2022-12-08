@@ -112,7 +112,8 @@ a[href^="tel"] {
   .closebtn { right: 0;top:18px; color:#fff; width:100px; text-align: center;}
   .logomobile{display: block; margin-left: 10px;}
   #mobilebar {display: block;}
-  main { width:100%;margin: 0 auto; height: 100vh; }
+  main { width:100%;margin: 0 auto; height: 100vh;display: block; }
+  .mainHide {display: none;}
   .stockphoto {display:none;}
   .stockphoto2 {display: block; height:fit-content;margin: 0 auto;}
   .content {

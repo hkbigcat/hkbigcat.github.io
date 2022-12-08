@@ -13,18 +13,17 @@ document.addEventListener("click" , e=> {
     const isButton = e.target.matches("button");
     const isCloseBtn = e.target.closest(".closebtn");
     const isNav = e.target.closest("[data-nav]");
-    const w = window.innerWidth;
     const sample=document.getElementById("sample");
     const isSample=e.target.closest("#sample");
     if (isButton) return;
     if (!isHamburger && isNav!= null && isCloseBtn == null )  return; 
     if (isHamburger) {
         document.querySelector("nav").classList.add("openNav");
-        if (w<1024) document.querySelector("main").style.display="none";  
+        document.querySelector("main").classList.add("mainHide");
         document.getElementById("hamburger").style.opacity = "0";
     } else {
         document.querySelector("nav").classList.remove("openNav");
-        if (w<1024) document.querySelector("main").style.display="block";
+        document.querySelector("main").classList.remove("mainHide");
         document.getElementById("hamburger").style.opacity = "1";
         if (sample===null || isSample) return;
         sample.style.display="none";
