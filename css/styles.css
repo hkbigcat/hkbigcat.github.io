@@ -20,6 +20,7 @@ nav {background-color: rgba(202, 202, 202, 0.96);
   padding-right: 30px;
   opacity: 0;
 }
+.openNav {opacity: 1;}
 
 .closebtn {
   color:black;
@@ -105,6 +106,7 @@ a[href^="tel"] {
     z-index: 1;
   }
   nav {background-color:#fff; position:absolute;height:max-content; border-bottom: 1px solid black; box-shadow: 0 3px 10px rgb(50 50 50 / 0.2);display: none; padding: 20px 0;}
+  .openNav {width: 100%; display: block;}
   nav a{color: #000;}  
   nav li {border-bottom: 1px solid #aaa; margin:12px 10px 12px 0; width:75%;}
   .closebtn { right: 0;top:18px; color:#fff; width:100px; text-align: center;}
@@ -134,12 +136,12 @@ a[href^="tel"] {
   .lang a:hover {text-decoration: underline;}
   #lang:hover {color: white;text-decoration: underline;}
   nav {visibility: hidden;}
+  .openNav {width: 320px; visibility: visible;}
   .flip-box {
     margin: 20px auto;
     position: fixed;
   }
   .flip-box, #hamburger{position:fixed;z-index: 4}
-
   main {  position:absolute; right:0; width:1280px}
   .photo {width:1280px; height: auto;}
    #stockphoto1 {top:0;z-index: 3; width: 1280px;}
@@ -197,7 +199,7 @@ a[href^="tel"] {
   #hamburger {display: none;}
   .closebtn {display:none;}
   main {left:unset; position: relative; margin-top:100px; border-top: #555 solid 1px;}
-  nav {margin-left:-198px; margin-top:-420px; border:#777 solid 1px;}
+  nav {margin-left:-198px; margin-top:-420px; border:#777 solid 1px; position: absolute;}
   nav ul {text-align: left; position: absolute; right:0; bottom:0}
   .stockphoto{display: none;}
   .stockphoto2{display: block;width:20%; float: right;}

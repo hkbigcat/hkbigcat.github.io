@@ -19,28 +19,14 @@ document.addEventListener("click" , e=> {
     if (isButton) return;
     if (!isHamburger && isNav!= null && isCloseBtn == null )  return; 
     if (isHamburger) {
-        if (w>=1024)  {  
-            document.getElementById("mySidenav").style.width = "320px";
-            document.getElementById("mySidenav").style.visibility = "visible";
-        } else {
-            document.getElementById("mySidenav").style.width = "100%";
-            document.getElementById("mySidenav").style.display = "block"; 
-            document.querySelector("main").style.display="none";  
-        }
-        document.getElementById("mySidenav").style.opacity = "1";
+        document.querySelector("nav").classList.add("openNav");
+        if (w<1024) document.querySelector("main").style.display="none";  
         document.getElementById("hamburger").style.opacity = "0";
     } else {
-        if (w>=1024)  {
-            document.getElementById("mySidenav").style.width = "0";
-            document.getElementById("mySidenav").style.visibility = "hidden";
-        } else { 
-            document.getElementById("mySidenav").style.display = "none";
-            document.querySelector("main").style.display="block";
-        }
+        document.querySelector("nav").classList.remove("openNav");
+        if (w<1024) document.querySelector("main").style.display="block";
         document.getElementById("hamburger").style.opacity = "1";
-        document.getElementById("mySidenav").style.opacity = "0";
         if (sample===null || isSample) return;
-        sample.style.display="close";
         sample.style.display="none";
         sample.style.zIndex=1;
         document.querySelector(".content").style.display="block";           

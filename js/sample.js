@@ -7,7 +7,7 @@ sample= () => {
 }
 sampleclose= () => {
     document.getElementById("sample").style.display="none";
-    document.getElementById("sampleclose").style.display="close";
+    document.getElementById("sampleclose").style.display="none";
     document.getElementById("sample").style.zIndex=1;
     document.querySelector(".content").style.display="block";
 }
