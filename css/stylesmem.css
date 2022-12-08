@@ -18,7 +18,7 @@ td {min-width: 8px;}
 .notes > * {font-size: 0.9em; color: #aaaaaa;}
 p strong {color:antiquewhite; }
 h2 {font-family: 'Anybody', 'Noto Sans TC', cursive;  font-weight: 400; }
-hr {clear: both;}
+hr, form {clear: both;}
 
 @media only screen and (max-width: 1023px) {
   #searchfrm {position: relative; height: 250px ;}
@@ -181,7 +181,8 @@ hr {clear: both;}
 @media print{
   #submenu2 {display: none;}
   #searchfrm {margin: 30px;}
-  .row  {margin:30px}
-  input[type=submit], input[type=button] {margin-bottom: 20px;}
+  input[type=submit], input[type=button] {margin: 20px;}
+  table, .row {width:800px; margin-left:100px; margin-bottom:50px}
+  table th {text-align: left;}
 }
 

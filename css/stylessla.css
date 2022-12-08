@@ -3,7 +3,7 @@
     .content {margin-top:2rem}
     label,input[type=submit] {font-size: 1rem; ;}
     input[type=submit] {border-radius: 15px; padding: 2px 16px; background-color: #8b8d8f;}
-    form {width: 142px; margin: 30px auto;}
+    form {width: 142px; margin: 30px auto; }
 }
 @media only screen and (min-width: 1024px) {
     #hamburger {position: absolute;}
@@ -11,7 +11,7 @@
     .content {position:absolute;top:625px; width:70%; padding:0; margin-left: calc(550px - 100vw)}
     .content > p {text-align: justify; }
     h1 {position:absolute; top:19rem; left:657px;text-align: right;}
-   form {width: 142px; margin: 30px auto;}
+   form {width: 142px; margin: 30px auto;clear: both;text-align: center;}
     label{margin-top: 4px;}
     .col1 {float: left;width: 25%;}
     .col2 {float: left;width: 75%;}
