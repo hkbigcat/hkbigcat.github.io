@@ -183,7 +183,7 @@ a[href^="tel"] {
     page-break-after: avoid;
     page-break-inside: avoid;
   }
-  img {margin: auto 20px;}
+  img {margin: 20px;}
   .symbol {display: none;}
   table, blockquote{
     page-break-inside: avoid;
@@ -196,7 +196,7 @@ a[href^="tel"] {
   }
   #hamburger {display: none;}
   .closebtn {display:none;}
-  main {left:unset; position: relative;}
+  main {left:unset; position: relative; margin-top:100px; border-top: #555 solid 1px;}
   nav ul {text-align: left; position: absolute; right:0; bottom:0}
   .stockphoto{display: none;}
   .stockphoto2{display: block;width:20%; float: right;}

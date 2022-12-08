@@ -182,7 +182,7 @@ hr, form {clear: both;}
   #submenu2 {display: none;}
   #searchfrm {margin: 30px;}
   input[type=submit], input[type=button] {margin: 20px;}
-  table, .row {width:800px; margin-left:100px; margin-bottom:50px}
+  table, .row {width:800px; margin-left:100px; margin-bottom:50px; clear: both;}
   table th {text-align: left;}
 }
 
