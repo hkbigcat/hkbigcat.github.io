@@ -183,6 +183,7 @@ a[href^="tel"] {
     page-break-after: avoid;
     page-break-inside: avoid;
   }
+  .symbol {display: none;}
   table, blockquote{
     page-break-inside: avoid;
   }
