@@ -1,5 +1,5 @@
 .flip-box, .stockphoto, .photo, #hamburger {position: absolute;}
-p a {color: white;}
+p a {color: white; text-decoration: none;}
 p a:hover{color:antiquewhite}
 body {
     counter-reset: section;
