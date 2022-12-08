@@ -5,6 +5,7 @@ body {
 }
 .lang  {color:white; font-family: 'Anybody', 'Noto Sans SC', cursive;  font-weight: 300;text-decoration: none;word-spacing: 5px;}
 #lang {color:#bbb;text-decoration: none}
+.content p {text-align: justify;}
 nav {background-color: rgba(202, 202, 202, 0.96);
   color: rgb(20, 20, 20); 
   height: 100vh;
